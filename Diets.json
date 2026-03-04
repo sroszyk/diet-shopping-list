@@ -1228,6 +1228,201 @@
               ]
             }
           ]
+        },
+        {
+          "meal_type_id": 1,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 47,
+              "ingredients": [
+                {
+                  "ingredient_id": 25,
+                  "amount": 120.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 29,
+                  "amount": 70.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 6,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 48,
+                  "amount": 150.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 6.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 6,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 48,
+              "ingredients": [
+                {
+                  "ingredient_id": 33,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 81,
+                  "amount": 70.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 85,
+                  "amount": 30.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 52,
+                  "amount": 25.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 86,
+                  "amount": 1.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 3,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 49,
+              "ingredients": [
+                {
+                  "ingredient_id": 13,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 14,
+                  "amount": 125.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 15,
+                  "amount": 200.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 16,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 17,
+                  "amount": 0.4,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 18,
+                  "amount": 0.4,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 19,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 20.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 7,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 50,
+              "ingredients": [
+                {
+                  "ingredient_id": 87,
+                  "amount": 35.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 5,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 51,
+              "ingredients": [
+                {
+                  "ingredient_id": 68,
+                  "amount": 160.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 88,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 12.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 69,
+                  "amount": 3.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 18,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 29,
+                  "amount": 35.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1459,6 +1654,201 @@
                 {
                   "ingredient_id": 46,
                   "amount": 150.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 1,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 52,
+              "ingredients": [
+                {
+                  "ingredient_id": 25,
+                  "amount": 112.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 48,
+                  "amount": 70.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 53,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 76,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 88,
+                  "amount": 30.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 12.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 6,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 53,
+              "ingredients": [
+                {
+                  "ingredient_id": 12,
+                  "amount": 30.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 36,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 79,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 21,
+                  "amount": 160.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 89,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 90,
+                  "amount": 70.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 3,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 54,
+              "ingredients": [
+                {
+                  "ingredient_id": 91,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 38,
+                  "amount": 200.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 39,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 40,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 20.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 41,
+                  "amount": 2.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 7,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 55,
+              "ingredients": [
+                {
+                  "ingredient_id": 35,
+                  "amount": 150.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 7,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 92,
+                  "amount": 35.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 5,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 56,
+              "ingredients": [
+                {
+                  "ingredient_id": 53,
+                  "amount": 170.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 29,
+                  "amount": 35.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 65,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 49,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 6,
+                  "amount": 100.0,
                   "unit_id": 1
                 }
               ]
@@ -1720,6 +2110,241 @@
               ]
             }
           ]
+        },
+        {
+          "meal_type_id": 1,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 57,
+              "ingredients": [
+                {
+                  "ingredient_id": 85,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 52,
+                  "amount": 25.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 71,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 93,
+                  "amount": 3.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 68,
+                  "amount": 80.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 3,
+                  "amount": 30.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 29,
+                  "amount": 35.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 6,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 58,
+              "ingredients": [
+                {
+                  "ingredient_id": 48,
+                  "amount": 100.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 59,
+              "ingredients": [
+                {
+                  "ingredient_id": 85,
+                  "amount": 30.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 60,
+              "ingredients": [
+                {
+                  "ingredient_id": 52,
+                  "amount": 25.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 61,
+              "ingredients": [
+                {
+                  "ingredient_id": 47,
+                  "amount": 40.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 62,
+              "ingredients": [
+                {
+                  "ingredient_id": 6,
+                  "amount": 100.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 3,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 63,
+              "ingredients": [
+                {
+                  "ingredient_id": 14,
+                  "amount": 150.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 54,
+                  "amount": 80.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 16,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 55,
+                  "amount": 80.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 56,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 18,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 57,
+                  "amount": 0.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 58,
+                  "amount": 18.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 59,
+                  "amount": 400.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 60,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 10.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 7,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 64,
+              "ingredients": [
+                {
+                  "ingredient_id": 42,
+                  "amount": 20.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 5,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 65,
+              "ingredients": [
+                {
+                  "ingredient_id": 65,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 48,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 81,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 17,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 18,
+                  "amount": 2.5,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 23,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 29,
+                  "amount": 35.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1946,6 +2571,231 @@
                 {
                   "ingredient_id": 21,
                   "amount": 40.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 1,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 66,
+              "ingredients": [
+                {
+                  "ingredient_id": 47,
+                  "amount": 70.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 6,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 82,
+                  "amount": 150.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 12.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 3,
+                  "amount": 30.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 49,
+                  "amount": 5.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 6,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 67,
+              "ingredients": [
+                {
+                  "ingredient_id": 12,
+                  "amount": 40.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 36,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 90,
+                  "amount": 70.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 35,
+                  "amount": 150.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 42,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 22,
+                  "amount": 2.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 3,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 68,
+              "ingredients": [
+                {
+                  "ingredient_id": 54,
+                  "amount": 160.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 62,
+                  "amount": 260.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 13.6,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 63,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 64,
+                  "amount": 0.5,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 17,
+                  "amount": 3.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 69,
+              "ingredients": [
+                {
+                  "ingredient_id": 56,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 53,
+                  "amount": 170.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 65,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 40,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 17,
+                  "amount": 0.2,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 44,
+                  "amount": 0.2,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 18,
+                  "amount": 0.2,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 7,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 70,
+              "ingredients": [
+                {
+                  "ingredient_id": 7,
+                  "amount": 120.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 5,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 71,
+              "ingredients": [
+                {
+                  "ingredient_id": 33,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 81,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 48,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 3,
+                  "amount": 30.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 44,
+                  "amount": 1.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 52,
+                  "amount": 25.0,
                   "unit_id": 1
                 }
               ]
@@ -2242,6 +3092,206 @@
               ]
             }
           ]
+        },
+        {
+          "meal_type_id": 1,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 72,
+              "ingredients": [
+                {
+                  "ingredient_id": 25,
+                  "amount": 120.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 90,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 94,
+                  "amount": 15.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 22,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 21,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 95,
+                  "amount": 5.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 6,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 73,
+              "ingredients": [
+                {
+                  "ingredient_id": 47,
+                  "amount": 40.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 81,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 48,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 88,
+                  "amount": 40.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 44,
+                  "amount": 1.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 3,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 74,
+              "ingredients": [
+                {
+                  "ingredient_id": 55,
+                  "amount": 40.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 16,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 53,
+                  "amount": 340.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 20.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 74,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 91,
+                  "amount": 40.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 57,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 56,
+                  "amount": 150.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 76,
+                  "amount": 50.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 7,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 75,
+              "ingredients": [
+                {
+                  "ingredient_id": 50,
+                  "amount": 150.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 5,
+          "owner": "Magda",
+          "dishes": [
+            {
+              "dish_id": 76,
+              "ingredients": [
+                {
+                  "ingredient_id": 65,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 68,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 69,
+                  "amount": 3.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 20,
+                  "amount": 12.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 48,
+                  "amount": 150.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 29,
+                  "amount": 35.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 96,
+                  "amount": 10.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -2533,1339 +3583,7 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Dzień 7",
-      "meals": [
-        {
-          "meal_type_id": 1,
-          "owner": "Szymon",
-          "dishes": [
-            {
-              "dish_id": 41,
-              "ingredients": [
-                {
-                  "ingredient_id": 25,
-                  "amount": 120.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 48,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 53,
-                  "amount": 170.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 2,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 30,
-                  "amount": 30.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 1,
-                  "amount": 80.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
         },
-        {
-          "meal_type_id": 2,
-          "owner": "Szymon",
-          "dishes": [
-            {
-              "dish_id": 42,
-              "ingredients": [
-                {
-                  "ingredient_id": 12,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 71,
-                  "amount": 130.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 21,
-                  "amount": 180.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 22,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 79,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 42,
-                  "amount": 20.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 3,
-          "owner": "Szymon",
-          "dishes": [
-            {
-              "dish_id": 43,
-              "ingredients": [
-                {
-                  "ingredient_id": 83,
-                  "amount": 300.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 84,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 15,
-                  "amount": 300.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 53,
-                  "amount": 340.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 40,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 64,
-                  "amount": 10.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 44,
-              "ingredients": [
-                {
-                  "ingredient_id": 21,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 40,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 28,
-                  "amount": 8.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 4,
-          "owner": "Szymon",
-          "dishes": [
-            {
-              "dish_id": 26,
-              "ingredients": [
-                {
-                  "ingredient_id": 66,
-                  "amount": 50.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 12,
-              "ingredients": [
-                {
-                  "ingredient_id": 42,
-                  "amount": 20.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 5,
-          "owner": "Szymon",
-          "dishes": [
-            {
-              "dish_id": 45,
-              "ingredients": [
-                {
-                  "ingredient_id": 77,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 31,
-                  "amount": 36.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 53,
-                  "amount": 170.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 17,
-                  "amount": 0.2,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 18,
-                  "amount": 0.2,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 44,
-                  "amount": 1.5,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 14,
-              "ingredients": [
-                {
-                  "ingredient_id": 45,
-                  "amount": 100.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 46,
-              "ingredients": [
-                {
-                  "ingredient_id": 2,
-                  "amount": 30.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Dzień 8",
-      "meals": [
-        {
-          "meal_type_id": 1,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 47,
-              "ingredients": [
-                {
-                  "ingredient_id": 25,
-                  "amount": 120.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 29,
-                  "amount": 70.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 6,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 48,
-                  "amount": 150.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 6.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 6,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 48,
-              "ingredients": [
-                {
-                  "ingredient_id": 33,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 81,
-                  "amount": 70.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 85,
-                  "amount": 30.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 52,
-                  "amount": 25.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 86,
-                  "amount": 1.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 3,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 49,
-              "ingredients": [
-                {
-                  "ingredient_id": 13,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 14,
-                  "amount": 125.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 15,
-                  "amount": 200.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 16,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 17,
-                  "amount": 0.4,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 18,
-                  "amount": 0.4,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 19,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 20.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 7,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 50,
-              "ingredients": [
-                {
-                  "ingredient_id": 87,
-                  "amount": 35.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 5,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 51,
-              "ingredients": [
-                {
-                  "ingredient_id": 68,
-                  "amount": 160.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 88,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 12.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 69,
-                  "amount": 3.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 18,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 29,
-                  "amount": 35.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "name": "Dzień 9",
-      "meals": [
-        {
-          "meal_type_id": 1,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 52,
-              "ingredients": [
-                {
-                  "ingredient_id": 25,
-                  "amount": 112.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 48,
-                  "amount": 70.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 53,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 76,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 88,
-                  "amount": 30.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 12.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 6,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 53,
-              "ingredients": [
-                {
-                  "ingredient_id": 12,
-                  "amount": 30.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 36,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 79,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 21,
-                  "amount": 160.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 89,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 90,
-                  "amount": 70.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 3,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 54,
-              "ingredients": [
-                {
-                  "ingredient_id": 91,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 38,
-                  "amount": 200.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 39,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 40,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 20.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 41,
-                  "amount": 2.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 7,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 55,
-              "ingredients": [
-                {
-                  "ingredient_id": 35,
-                  "amount": 150.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 7,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 92,
-                  "amount": 35.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 5,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 56,
-              "ingredients": [
-                {
-                  "ingredient_id": 53,
-                  "amount": 170.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 29,
-                  "amount": 35.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 65,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 49,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 6,
-                  "amount": 100.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Dzień 10",
-      "meals": [
-        {
-          "meal_type_id": 1,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 57,
-              "ingredients": [
-                {
-                  "ingredient_id": 85,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 52,
-                  "amount": 25.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 71,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 93,
-                  "amount": 3.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 68,
-                  "amount": 80.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 3,
-                  "amount": 30.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 29,
-                  "amount": 35.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 6,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 58,
-              "ingredients": [
-                {
-                  "ingredient_id": 48,
-                  "amount": 100.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 59,
-              "ingredients": [
-                {
-                  "ingredient_id": 85,
-                  "amount": 30.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 60,
-              "ingredients": [
-                {
-                  "ingredient_id": 52,
-                  "amount": 25.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 61,
-              "ingredients": [
-                {
-                  "ingredient_id": 47,
-                  "amount": 40.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 62,
-              "ingredients": [
-                {
-                  "ingredient_id": 6,
-                  "amount": 100.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 3,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 63,
-              "ingredients": [
-                {
-                  "ingredient_id": 14,
-                  "amount": 150.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 54,
-                  "amount": 80.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 16,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 55,
-                  "amount": 80.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 56,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 18,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 57,
-                  "amount": 0.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 58,
-                  "amount": 18.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 59,
-                  "amount": 400.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 60,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 10.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 7,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 64,
-              "ingredients": [
-                {
-                  "ingredient_id": 42,
-                  "amount": 20.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 5,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 65,
-              "ingredients": [
-                {
-                  "ingredient_id": 65,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 48,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 81,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 17,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 18,
-                  "amount": 2.5,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 23,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 29,
-                  "amount": 35.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "name": "Dzień 11",
-      "meals": [
-        {
-          "meal_type_id": 1,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 66,
-              "ingredients": [
-                {
-                  "ingredient_id": 47,
-                  "amount": 70.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 6,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 82,
-                  "amount": 150.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 12.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 3,
-                  "amount": 30.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 49,
-                  "amount": 5.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 6,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 67,
-              "ingredients": [
-                {
-                  "ingredient_id": 12,
-                  "amount": 40.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 36,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 90,
-                  "amount": 70.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 35,
-                  "amount": 150.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 42,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 22,
-                  "amount": 2.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 3,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 68,
-              "ingredients": [
-                {
-                  "ingredient_id": 54,
-                  "amount": 160.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 62,
-                  "amount": 260.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 13.6,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 63,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 64,
-                  "amount": 0.5,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 17,
-                  "amount": 3.0,
-                  "unit_id": 1
-                }
-              ]
-            },
-            {
-              "dish_id": 69,
-              "ingredients": [
-                {
-                  "ingredient_id": 56,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 10.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 53,
-                  "amount": 170.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 65,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 40,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 17,
-                  "amount": 0.2,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 44,
-                  "amount": 0.2,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 18,
-                  "amount": 0.2,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 7,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 70,
-              "ingredients": [
-                {
-                  "ingredient_id": 7,
-                  "amount": 120.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 5,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 71,
-              "ingredients": [
-                {
-                  "ingredient_id": 33,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 81,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 48,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 3,
-                  "amount": 30.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 44,
-                  "amount": 1.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 52,
-                  "amount": 25.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Dzień 12",
-      "meals": [
-        {
-          "meal_type_id": 1,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 72,
-              "ingredients": [
-                {
-                  "ingredient_id": 25,
-                  "amount": 120.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 90,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 94,
-                  "amount": 15.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 22,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 21,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 95,
-                  "amount": 5.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 6,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 73,
-              "ingredients": [
-                {
-                  "ingredient_id": 47,
-                  "amount": 40.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 81,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 48,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 88,
-                  "amount": 40.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 44,
-                  "amount": 1.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 3,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 74,
-              "ingredients": [
-                {
-                  "ingredient_id": 55,
-                  "amount": 40.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 16,
-                  "amount": 50.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 53,
-                  "amount": 340.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 20.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 74,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 5,
-                  "amount": 5.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 91,
-                  "amount": 40.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 57,
-                  "amount": 2.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 56,
-                  "amount": 150.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 76,
-                  "amount": 50.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 7,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 75,
-              "ingredients": [
-                {
-                  "ingredient_id": 50,
-                  "amount": 150.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "meal_type_id": 5,
-          "owner": "Magda",
-          "dishes": [
-            {
-              "dish_id": 76,
-              "ingredients": [
-                {
-                  "ingredient_id": 65,
-                  "amount": 60.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 68,
-                  "amount": 100.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 69,
-                  "amount": 3.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 20,
-                  "amount": 12.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 48,
-                  "amount": 150.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 29,
-                  "amount": 35.0,
-                  "unit_id": 1
-                },
-                {
-                  "ingredient_id": 96,
-                  "amount": 10.0,
-                  "unit_id": 1
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "name": "Dzień 13",
-      "meals": [
         {
           "meal_type_id": 1,
           "owner": "Magda",
@@ -4124,9 +3842,249 @@
       ]
     },
     {
-      "id": 14,
-      "name": "Dzień 14",
+      "id": 7,
+      "name": "Dzień 7",
       "meals": [
+        {
+          "meal_type_id": 1,
+          "owner": "Szymon",
+          "dishes": [
+            {
+              "dish_id": 41,
+              "ingredients": [
+                {
+                  "ingredient_id": 25,
+                  "amount": 120.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 48,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 53,
+                  "amount": 170.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 2,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 30,
+                  "amount": 30.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 1,
+                  "amount": 80.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 2,
+          "owner": "Szymon",
+          "dishes": [
+            {
+              "dish_id": 42,
+              "ingredients": [
+                {
+                  "ingredient_id": 12,
+                  "amount": 50.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 71,
+                  "amount": 130.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 21,
+                  "amount": 180.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 22,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 79,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 42,
+                  "amount": 20.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 3,
+          "owner": "Szymon",
+          "dishes": [
+            {
+              "dish_id": 43,
+              "ingredients": [
+                {
+                  "ingredient_id": 83,
+                  "amount": 300.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 84,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 15,
+                  "amount": 300.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 53,
+                  "amount": 340.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 5,
+                  "amount": 10.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 40,
+                  "amount": 5.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 64,
+                  "amount": 10.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 44,
+              "ingredients": [
+                {
+                  "ingredient_id": 21,
+                  "amount": 100.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 40,
+                  "amount": 2.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 28,
+                  "amount": 8.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 4,
+          "owner": "Szymon",
+          "dishes": [
+            {
+              "dish_id": 26,
+              "ingredients": [
+                {
+                  "ingredient_id": 66,
+                  "amount": 50.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 12,
+              "ingredients": [
+                {
+                  "ingredient_id": 42,
+                  "amount": 20.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "meal_type_id": 5,
+          "owner": "Szymon",
+          "dishes": [
+            {
+              "dish_id": 45,
+              "ingredients": [
+                {
+                  "ingredient_id": 77,
+                  "amount": 60.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 31,
+                  "amount": 36.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 53,
+                  "amount": 170.0,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 17,
+                  "amount": 0.2,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 18,
+                  "amount": 0.2,
+                  "unit_id": 1
+                },
+                {
+                  "ingredient_id": 44,
+                  "amount": 1.5,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 14,
+              "ingredients": [
+                {
+                  "ingredient_id": 45,
+                  "amount": 100.0,
+                  "unit_id": 1
+                }
+              ]
+            },
+            {
+              "dish_id": 46,
+              "ingredients": [
+                {
+                  "ingredient_id": 2,
+                  "amount": 30.0,
+                  "unit_id": 1
+                }
+              ]
+            }
+          ]
+        },
         {
           "meal_type_id": 1,
           "owner": "Magda",
