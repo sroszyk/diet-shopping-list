@@ -1,0 +1,3177 @@
+{
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-03-12",
+      "owner": "Magda",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Tortilla z pesto, szynką i warzywami",
+              "ingredients": [
+                {
+                  "name": "Tortilla pszenna pełnoziarnista",
+                  "weight": 60,
+                  "type": "bread"
+                },
+                {
+                  "name": "Pesto bazyliowe",
+                  "weight": 15,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Szynka z indyka",
+                  "weight": 30,
+                  "type": "meat"
+                },
+                {
+                  "name": "Ser Mozzarella",
+                  "weight": 30,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Marchew",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 100,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Tortillę posmarować pesto, ułożyć wędlinę i ser. Złożyć na pół i pokroić w trójkąty. Marchew obrać i pokroić w słupki. Podawać z warzywami."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Jogurt z musli i gruszką",
+              "ingredients": [
+                {
+                  "name": "Jogurt naturalny",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Musli Codzienne (One Day More)",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Gruszka",
+                  "weight": 160,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Migdały płatki",
+                  "weight": 10,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Jogurt podać z musli, pokrojonymi owocami i orzechami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Makaron z pesto, rukolą i camembertem",
+              "ingredients": [
+                {
+                  "name": "Makaron z czerwonej soczewicy (Go Vege)",
+                  "weight": 60,
+                  "type": "bread"
+                },
+                {
+                  "name": "Camembert lekki 12%",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pesto bazyliowe",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Makaron ugotować. Ser pokroić na plastry. Pesto wymieszać z ciepłym makaronem, rukolą i pokrojonymi w paseczki pomidorkami. Wyłożyć na talerz, na wierzchu położyć plastry sera, doprawić do smaku."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Przekąska borówka, orzechy nerkowca",
+              "ingredients": [
+                {
+                  "name": "Borówka cała",
+                  "weight": 100,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Orzechy nerkowca",
+                  "weight": 15,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Wymieszać składniki."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Kanapka z szynką z indyka, sałatą i ogórkiem",
+              "ingredients": [
+                {
+                  "name": "Masło",
+                  "weight": 7,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Mix sałat",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Szynka z indyka",
+                  "weight": 30,
+                  "type": "meat"
+                },
+                {
+                  "name": "Ogórek",
+                  "weight": 90,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb z pełnego ziarna",
+                  "weight": 40,
+                  "type": "bread"
+                }
+              ],
+              "recipe": "Pieczywo posmarować masłem, położyć sałatę, szynkę i plasterki ogórka."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-03-13",
+      "owner": "Magda",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Kanapki z hummusem, jajkiem i zielonym ogórkiem",
+              "ingredients": [
+                {
+                  "name": "Chleb z pełnego ziarna",
+                  "weight": 60,
+                  "type": "bread"
+                },
+                {
+                  "name": "Masło",
+                  "weight": 7,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Hummus",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek",
+                  "weight": 90,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Jajko kurze",
+                  "weight": 65,
+                  "type": "dairy"
+                }
+              ],
+              "recipe": "Kromki chleba posmarować masłem i hummusem, dodać plasterki ugotowanego jajka i ogórka."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Czekoladowa nocna owsianka z malinami",
+              "ingredients": [
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Nasiona chia",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Miód",
+                  "weight": 6,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Napój migdałowy bez dodatku cukru (Sante)",
+                  "weight": 125,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 40,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Czekolada gorzka 70-85% kakao",
+                  "weight": 8,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Maliny mrożone",
+                  "weight": 60,
+                  "type": "fruit"
+                }
+              ],
+              "recipe": "Do miseczki wsypać płatki owsiane. Dodać nasiona chia i miód. Zalać je mlekiem i dokładnie wymieszać. Następnie dodać jogurt oraz posiekaną gorzką czekoladę i wymieszać. Miseczkę przykryć i odstawić do lodówki na noc. Przed podaniem dodać owoce."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Zupa ogórkowa z ziemniakami i kurczakiem",
+              "ingredients": [
+                {
+                  "name": "Kurczak pierś",
+                  "weight": 100,
+                  "type": "meat"
+                },
+                {
+                  "name": "Ziemniaki",
+                  "weight": 50,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 135,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Marchew",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pietruszka korzeń",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Seler korzeń",
+                  "weight": 30,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Por",
+                  "weight": 25,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Masło",
+                  "weight": 7,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ziele angielskie",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Liść laurowy",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Woda z ogórków kiszonych",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Jogurt naturalny",
+                  "weight": 50,
+                  "type": "dairy"
+                }
+              ],
+              "recipe": "Pierś z kurczaka umyć i oczyść z błon. Ziemniaki obrać i pokroić w kostkę. Ogórki pokroić w kostkę. Marchewkę, pietruszkę i selera obierać. Do garnka włożyć pierś z kurczaka, marchewkę, pietruszkę, selera i pora. Dodać oliwę i masło, liście laurowe, ziarenka pieprzu i ziela angielskiego. Zalać wodą z ogórków kiszonych oraz zwykłą wodą (200 ml) i postawić na dużym ogniu. Kiedy bulion zacznie wrzeć, zmniejszyć ogień i gotować ok. 20 minut. Z bulionu wyjąć warzywa i pierś z kurczaka. Marchewkę pokroić w plastry. Kurczaka pokroić w kostkę 2 cm x 2 cm. Włożyć z powrotem do garnka. Dodać ziemniaki i ogórki. Gotować ok. 15 minut. Odlać 1/2 szklanki zupy i delikatnie wymieszać z jogurtem. Powoli wlać do zupy i wymieszać."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Jogurt z owocem i masłem orzechowym",
+              "ingredients": [
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Maliny mrożone",
+                  "weight": 60,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Masło orzechowe",
+                  "weight": 15,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Jogurt wymieszaj z owocami. Polej masłem orzechowym."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Grzanka z serkiem wiejskim, kiełkami i rzodkiewką",
+              "ingredients": [
+                {
+                  "name": "Serek wiejski",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Kiełki mix",
+                  "weight": 8,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb z pełnego ziarna",
+                  "weight": 40,
+                  "type": "bread"
+                },
+                {
+                  "name": "Rzodkiewka",
+                  "weight": 45,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Pieczywo podpiec w opiekaczu lub na patelni. Serek wiejski wymieszać z potartą rzodkiewką i oliwą. Nałożyć serek na grzankę, udekorować kiełkami."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-03-14",
+      "owner": "Magda",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Jajecznica z pomidorami i szczypiorkiem",
+              "ingredients": [
+                {
+                  "name": "Jajko kurze",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 120,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Szczypiorek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Czarnuszka",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb żytni razowy na zakwasie",
+                  "weight": 80,
+                  "type": "bread"
+                }
+              ],
+              "recipe": "Jaja roztrzepać w miseczce. Na oliwie podsmażyć pomidora pokrojonego w kostkę, wlać jajka, przyprawić solą, pieprzem. Gotową jajecznicę posypać posiekanym szczypiorkiem i czarnuszką. Podać z pieczywem."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Owsianka z pomarańczą i orzechami",
+              "ingredients": [
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ksylitol",
+                  "weight": 4,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 40,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pomarańcza",
+                  "weight": 160,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Orzechy włoskie",
+                  "weight": 8,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Płatki owsiane ugotować w wodzie z dodatkiem przypraw korzennych. W trakcie gotowania dodać słodzik. Ugotowane płatki wymieszać z jogurtem i przełożyć do miseczki. Podawać z kawałkami owocu i drobno pokrojonymi orzechami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Burger w sałacie z surówką",
+              "ingredients": [
+                {
+                  "name": "Wołowina mielona",
+                  "weight": 100,
+                  "type": "meat"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Musztarda",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula",
+                  "weight": 35,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mix sałat",
+                  "weight": 30,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 170,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula czerwona",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Bułka żytnio-razowa",
+                  "weight": 80,
+                  "type": "bread"
+                }
+              ],
+              "recipe": "Zmieszać zmielone mięso z przyprawami, musztardą i posiekaną cebulą. Uformować burgery. Upiec w airfryerze. Zawinąć burgery w liście sałaty i podawać z surówką ze świeżych warzyw skropioną oliwą. Podać w podpieczonej bułce."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Granola z jogurtem",
+              "ingredients": [
+                {
+                  "name": "Musli Codzienne (One Day More)",
+                  "weight": 20,
+                  "type": "bread"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Kiwi",
+                  "weight": 75,
+                  "type": "fruit"
+                }
+              ],
+              "recipe": "Jogurt wymieszać z pozostałymi składnikami."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Bruschetta z mozzarellą",
+              "ingredients": [
+                {
+                  "name": "Chleb z pełnego ziarna",
+                  "weight": 23,
+                  "type": "bread"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 90,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ser Mozzarella",
+                  "weight": 30,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Bazylia świeża",
+                  "weight": 10,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Pieczywo skropić oliwą. Pomidora sparzyć i obrać ze skórki. Pokroić w kostkę i odsączyć z soku. Ułożyć na pieczywie, dodać starty ser. Zapiekać w piekarniku około 5 minut, aż ser się roztopi. Oprószyć pieprzem, dodać bazylię."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-03-15",
+      "owner": "Magda",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Kanapki z koperkową pastą z twarogu i jajka",
+              "ingredients": [
+                {
+                  "name": "Jajko kurze",
+                  "weight": 50,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 90,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Jogurt naturalny",
+                  "weight": 40,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Koper świeży",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb z pełnego ziarna",
+                  "weight": 80,
+                  "type": "bread"
+                },
+                {
+                  "name": "Ogórek",
+                  "weight": 90,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Jajko ugotować. Wymieszać z twarogiem, jogurtem, siekanym koperkiem. Doprawić do smaku. Pieczywo posmarować pastą. Zjeść z warzywem."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Nocna owsianka z kiwi",
+              "ingredients": [
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Napój migdałowy bez dodatku cukru (Sante)",
+                  "weight": 125,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 40,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kiwi",
+                  "weight": 75,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Orzechy włoskie",
+                  "weight": 8,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "W misce wymieszać płatki owsiane, mleko, jogurt i cynamon. Przykryć miskę folią spożywczą i wstawić do lodówki na całą noc. Rano wyjąć gotową owsiankę z lodówki. Na wierzch wyłożyć pokrojone owoce i posiekane orzechy."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Pierś z indyka (Air Fryer)",
+              "ingredients": [
+                {
+                  "name": "Indyk filet",
+                  "weight": 150,
+                  "type": "meat"
+                },
+                {
+                  "name": "Napój migdałowy bez dodatku cukru (Sante)",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Przyprawa do kurczaka",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kasza gryczana niepalona",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Surówka z marchwi",
+                  "weight": 100,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Mięso przełożyć do szklanego pojemnika, zalać mlekiem i włożyć przykryte do lodówki na noc. Następnego dnia wyjąć pierś z mleka, osuszyć i posypać solą oraz pieprzem. Natrzeć oliwą i przyprawą do kurczaka. Umieścić filet w komorze Air Fryera i piec 20 minut w 180 stopniach Celsjusza. Podawać z ugotowaną kaszą i surówką (marchew i jabłko zetrzeć na tarce, skropić sokiem z cytryny)."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Deser a'la panna cotta",
+              "ingredients": [
+                {
+                  "name": "Galaretka w proszku",
+                  "weight": 15,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Aromat waniliowy",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Truskawki mrożone",
+                  "weight": 70,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Mięta",
+                  "weight": 1,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Galaretkę rozpuścić w gorącej wodzie i odstawić do wystudzenia. Zmiksować wystudzoną galaretkę z jogurtem i aromatem. Przelać masę do mniejszej miseczki i wstawić do lodówki na min. 5 h. Po tym czasie wyjąć z foremki i udekorować zblendowanymi truskawkami i miętą."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Serek wiejski z warzywami i nasionami",
+              "ingredients": [
+                {
+                  "name": "Serek wiejski",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pestki dyni",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rzodkiewka",
+                  "weight": 45,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 170,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 65,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Wymieszać serek wiejski z pokrojonymi warzywami i nasionami/pestkami."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-03-16",
+      "owner": "Magda",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Sałatka warzywna z serem mozzarella",
+              "ingredients": [
+                {
+                  "name": "Mix sałat",
+                  "weight": 50,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 170,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek",
+                  "weight": 180,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula czerwona",
+                  "weight": 45,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ser Mozzarella",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Na talerzu ułożyć sałatę, następnie pokroić warzywa. Na wierzchu ułożyć plastry sera, całość skropić oliwą i doprawić."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Musli z serkiem malinowym i owocami",
+              "ingredients": [
+                {
+                  "name": "High Protein serek malinowy (Pilos)",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Musli Codzienne (One Day More)",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Maliny mrożone",
+                  "weight": 60,
+                  "type": "fruit"
+                }
+              ],
+              "recipe": "Przełożyć serek do miseczki. Posypać musli i owocami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Gnocchi z pomidorkami i mozzarellą",
+              "ingredients": [
+                {
+                  "name": "Czosnek",
+                  "weight": 4,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Gnocchi",
+                  "weight": 100,
+                  "type": "bread"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kurczak pierś",
+                  "weight": 100,
+                  "type": "meat"
+                },
+                {
+                  "name": "Bazylia świeża",
+                  "weight": 10,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Podsmażyć przeciśnięty przez praskę czosnek na połowie oliwy, dorzucić przekrojone na pół pomidorki, dusić przez 3-5 minut. Dodać kolejną łyżeczkę oliwy, wrzucić gnocchi, sól i pieprz, dusić pod przykryciem 5 minut, a pod koniec dodać pokrojoną w plasterki upieczoną w airfryerze pierś z kurczaka. Przełożyć na talerz i udekorować świeżą bazylią."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Jagody z jogurtem",
+              "ingredients": [
+                {
+                  "name": "Borówki amerykańskie",
+                  "weight": 150,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Ksylitol",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Jogurt naturalny",
+                  "weight": 150,
+                  "type": "dairy"
+                }
+              ],
+              "recipe": "Jagody utrzeć ze słodzikiem. Wymieszać z jogurtem."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Kanapka z pastą jajeczną",
+              "ingredients": [
+                {
+                  "name": "Jajko kurze",
+                  "weight": 50,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Chleb żytni razowy na zakwasie",
+                  "weight": 35,
+                  "type": "bread"
+                },
+                {
+                  "name": "Majonez",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mix sałat",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 37,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Jajko i ogórka zetrzeć i wymieszać z majonezem – pastę ułożyć na kanapkę. Na kanapki dodać warzywa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-03-17",
+      "owner": "Magda",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Bułka z twarożkiem, szczypiorkiem i rzodkiewką",
+              "ingredients": [
+                {
+                  "name": "Bułka żytnio-razowa",
+                  "weight": 83,
+                  "type": "bread"
+                },
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 90,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Szczypiorek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rzodkiewka",
+                  "weight": 30,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek",
+                  "weight": 90,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Bułkę podać z twarożkiem wymieszanym z oliwą, szczypiorkiem, drobno pokrojoną rzodkiewką. Na wierzch pokroić ogórka."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Owsianka migdałowa z serkiem wiejskim i gruszką",
+              "ingredients": [
+                {
+                  "name": "Napój migdałowy bez dodatku cukru (Sante)",
+                  "weight": 125,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Ksylitol",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Gruszka",
+                  "weight": 80,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Jogurt naturalny",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Migdały płatki",
+                  "weight": 3,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Mleko zagotować, wsypać płatki owsiane i słodzik, całość gotować 3 minuty. Gotową owsiankę przelać do miseczki, dodać pokrojony na kawałki owoc, serek wiejski i cynamon. Całość posypać siekanymi migdałami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Filet z kurczaka na parze z puree z groszku i surówką z kiszonej kapusty",
+              "ingredients": [
+                {
+                  "name": "Groszek zielony mrożony",
+                  "weight": 120,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kurczak pierś",
+                  "weight": 125,
+                  "type": "meat"
+                },
+                {
+                  "name": "Koper świeży",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kapusta kiszona",
+                  "weight": 150,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Marchew",
+                  "weight": 30,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ziemniaki",
+                  "weight": 150,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Mięso ugotować na parze. Groszek ugotować w osolonej wodzie, odcedzić, zgnieść na puree z połową oliwy i posypać koperkiem. Obrać i ugotować ziemniaki. Kapustę wymieszać z resztą oliwy oraz startą na drobnych oczkach marchewką, doprawić do smaku pieprzem."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Jabłko z masłem orzechowym",
+              "ingredients": [
+                {
+                  "name": "Jabłko",
+                  "weight": 140,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Masło orzechowe",
+                  "weight": 20,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Owoc umyć i pokroić na kawałki. Posmarować masłem orzechowym."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Bułka z hummusem, awokado i pomidorem",
+              "ingredients": [
+                {
+                  "name": "Bułka grahamka",
+                  "weight": 65,
+                  "type": "bread"
+                },
+                {
+                  "name": "Hummus",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rzodkiewka",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 90,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oregano suszone",
+                  "weight": 1,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Połówki bułki posmarować hummusem, na wierzch położyć warzywa. Całość obsypać oregano."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-03-18",
+      "owner": "Magda",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Jajka na miękko z warzywami",
+              "ingredients": [
+                {
+                  "name": "Jajko kurze",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Papryka czerwona",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rzodkiewka",
+                  "weight": 45,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 65,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mix sałat",
+                  "weight": 50,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb żytni razowy na zakwasie",
+                  "weight": 70,
+                  "type": "bread"
+                }
+              ],
+              "recipe": "Jajka ugotować na miękko - 4-5 minut od zimnej wody. Paprykę i rzodkiewki przekroić na pół, ogórki w kostkę, wymieszać z sałatą i polać olejem. Zjeść z pieczywem - można je opiec wcześniej, żeby było chrupiące."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Nocna owsianka z kiwi i bananem",
+              "ingredients": [
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Napój migdałowy bez dodatku cukru (Sante)",
+                  "weight": 125,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kiwi",
+                  "weight": 75,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Banan",
+                  "weight": 50,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Orzechy włoskie",
+                  "weight": 8,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "W misce wymieszać płatki owsiane, mleko, jogurt i cynamon. Przykryć miskę folią spożywczą i wstawić do lodówki na całą noc. Rano wyjąć gotową owsiankę z lodówki. Na wierzch wyłożyć pokrojone owoce i posiekane orzechy."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Bałkańskie szaszłyki z surówką",
+              "ingredients": [
+                {
+                  "name": "Natka pietruszki",
+                  "weight": 6,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mięta",
+                  "weight": 3,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula",
+                  "weight": 35,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Czosnek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Wołowina mielona",
+                  "weight": 100,
+                  "type": "meat"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Czosnek w proszku",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kumin w proszku (kmin rzymski)",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Słodka papryka przyprawa",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mix sałat",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek",
+                  "weight": 180,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 200,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula czerwona",
+                  "weight": 45,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sok z cytryny",
+                  "weight": 9,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ziemniaki",
+                  "weight": 150,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Pietruszkę, miętę i cebulę drobno posiekać. Czosnek przecisnąć przez praskę. Mięso wymieszać z cebulą, pietruszką, miętą i czosnkiem oraz z wszystkimi przyprawami. Dodać odrobinę wody. Uformować szaszłyki i piec na grillu lub patelni. Podawać z surówką ze świeżych warzyw skropioną oliwą i sokiem z cytryny z ugotowanymi ziemniakami."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Skyr pitny truskawkowy z migdałami",
+              "ingredients": [
+                {
+                  "name": "Skyr pitny truskawka (Fruvita)",
+                  "weight": 125,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Migdały płatki",
+                  "weight": 8,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Wypić jogurt przegryzając migdałami."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Sałatka z pomidora, parówka z pieczywem",
+              "ingredients": [
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Bułka grahamka",
+                  "weight": 65,
+                  "type": "bread"
+                },
+                {
+                  "name": "Parówki z kurczaka",
+                  "weight": 40,
+                  "type": "meat"
+                },
+                {
+                  "name": "Koper świeży",
+                  "weight": 5,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Pomidorki pokroić i wymieszać z oliwą i koperkiem. Zjeść z bułką z podgrzaną parówką."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 1,
+      "date": "2026-03-11",
+      "owner": "Szymon",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Kanapka z rukolą, serem żółtym, szynką i pomidorem",
+              "ingredients": [
+                {
+                  "name": "Chleb żytni",
+                  "weight": 80,
+                  "type": "bread"
+                },
+                {
+                  "name": "Masło",
+                  "weight": 7,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ser Gouda",
+                  "weight": 50,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Szynka z indyka",
+                  "weight": 60,
+                  "type": "meat"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 85,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz biały",
+                  "weight": 1,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Kanapki posmarować masłem, położyć rukolę, plasterki sera, szynki oraz pomidora. Doprawić do smaku."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Serek wiejski z malinami i kokosem",
+              "ingredients": [
+                {
+                  "name": "Serek wiejski lekki",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Maliny mrożone",
+                  "weight": 60,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Banan",
+                  "weight": 100,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Wiórki kokosowe",
+                  "weight": 3,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Serek wymieszać z resztą składników."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Makaron z pesto, rukolą i camembertem",
+              "ingredients": [
+                {
+                  "name": "Makaron z czerwonej soczewicy",
+                  "weight": 120,
+                  "type": "bread"
+                },
+                {
+                  "name": "Ser Camembert",
+                  "weight": 120,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pesto bazyliowe",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 200,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Makaron ugotować. Ser pokroić na plastry. Pesto wymieszać z ciepłym makaronem, rukolą i pokrojonymi w paseczki pomidorkami. Wyłożyć na talerz, na wierzchu położyć plastry sera, doprawić do smaku."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Kanapka z szynką, musztardą i ogórkiem kiszonym",
+              "ingredients": [
+                {
+                  "name": "Chleb żytni",
+                  "weight": 80,
+                  "type": "bread"
+                },
+                {
+                  "name": "Masło",
+                  "weight": 14,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Chleb pszenny pełnoziarnisty",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Szynka z indyka",
+                  "weight": 30,
+                  "type": "meat"
+                },
+                {
+                  "name": "Musztarda",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 65,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Kromki posmarować masłem, położyć sałatę, plasterki szynki i posmarować musztardą. Podawać z ogórkiem kiszonym."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Rukola z twarogiem, pomidorkami i słonecznikiem",
+              "ingredients": [
+                {
+                  "name": "Rukola",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ocet balsamiczny",
+                  "weight": 6,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Nasiona słonecznika",
+                  "weight": 8,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb żytni",
+                  "weight": 80,
+                  "type": "bread"
+                }
+              ],
+              "recipe": "Rukolę umyć, osuszyć i ułożyć na talerzu. Na sałacie ułożyć pomidorki przecięte na pół i kawałki twarogu. Oliwę wymieszać z octem balsamicznym i skropić sałatkę. Posypać pestkami słonecznika. Podawać z pieczywem."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-03-12",
+      "owner": "Szymon",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Jajecznica na grzankach z pomidorkami",
+              "ingredients": [
+                {
+                  "name": "Chleb żytni",
+                  "weight": 70,
+                  "type": "bread"
+                },
+                {
+                  "name": "Masło",
+                  "weight": 7,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Jajko kurze",
+                  "weight": 195,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Szczypiorek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Czarnuszka",
+                  "weight": 2,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Kromki chleba podpiec w tosterze lub w piekarniku rozgrzanym do 200 stopni. Masło rozpuścić na patelni, wbić jajka, podgrzewać na małym ogniu, stale mieszając. Do jajecznicy dodać sól i pieprz. Na grzankach ułożyć ciepłą jajecznicę, na wierzchu położyć przekrojone na pół pomidorki. Całość posypać posiekanym szczypiorkiem i czarnuszką."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Jogurt z borówkami i masłem orzechowym",
+              "ingredients": [
+                {
+                  "name": "Skyr waniliowy (Piątnica)",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Borówki amerykańskie",
+                  "weight": 100,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Masło orzechowe",
+                  "weight": 20,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Wymieszać jogurt z pozostałymi składnikami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Zupa ogórkowa z ziemniakami i kurczakiem",
+              "ingredients": [
+                {
+                  "name": "Kurczak pierś",
+                  "weight": 200,
+                  "type": "meat"
+                },
+                {
+                  "name": "Ziemniaki",
+                  "weight": 180,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 270,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Marchew",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pietruszka korzeń",
+                  "weight": 80,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Seler korzeń",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Por",
+                  "weight": 50,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Masło",
+                  "weight": 7,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Liść laurowy",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ziele angielskie",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Woda z ogórków kiszonych",
+                  "weight": 250,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Jogurt naturalny",
+                  "weight": 100,
+                  "type": "dairy"
+                }
+              ],
+              "recipe": "Pierś z kurczaka umyć i oczyść z błon. Ziemniaki obrać i pokroić w kostkę. Ogórki pokroić w kostkę. Marchewkę, pietruszkę i selera obierać. Do garnka włożyć pierś z kurczaka, marchewkę, pietruszkę, selera i pora. Dodać oliwę i masło, liście laurowe, ziarenka pieprzu i ziela angielskiego. Zalać wodą z ogórków kiszonych oraz zwykłą wodą (200 ml) i postawić na dużym ogniu. Kiedy bulion zacznie wrzeć, zmniejszyć ogień i gotować ok. 20 minut. Z bulionu wyjąć warzywa i pierś z kurczaka. Marchewkę pokroić w plastry. Kurczaka pokroić w kostkę 2 cm x 2 cm. Włożyć z powrotem do garnka. Dodać ziemniaki i ogórki. Gotować ok. 15 minut. Odlać 1/2 szklanki zupy i delikatnie wymieszać z jogurtem. Powoli wlać do zupy i wymieszać."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Twarożek grani z pomarańczą i migdałami",
+              "ingredients": [
+                {
+                  "name": "Pomarańcza",
+                  "weight": 240,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Twarożek grani",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Migdały płatki",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 3,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Pomarańczę pokroić i przełożyć do serka. Dodać płatki migdałowe i posypać szczyptą cynamonu."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Grahamka z pesto i twarogiem",
+              "ingredients": [
+                {
+                  "name": "Bułka grahamka",
+                  "weight": 65,
+                  "type": "bread"
+                },
+                {
+                  "name": "Pesto bazyliowe",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 170,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Grahamki przekroić na pół, posmarować pesto, położyć plastry twarogu i pomidora. Doprawić solą i pieprzem. Podawać z rukolą na wierzchu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-03-13",
+      "owner": "Szymon",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Kanapki z serkiem, szynką i pomidorem",
+              "ingredients": [
+                {
+                  "name": "Chleb żytni",
+                  "weight": 70,
+                  "type": "bread"
+                },
+                {
+                  "name": "Serek śmietankowy",
+                  "weight": 50,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Szynka z indyka",
+                  "weight": 60,
+                  "type": "meat"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 170,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pestki dyni",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 2,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Kanapki posmarować serkiem śmietankowym, wyłożyć kawałki szynki, plastry pomidora. Przybrać rukolą, skropić oliwą i posypać pestkami dyni. Całość doprawić świeżo zmielonym pieprzem."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Owsianka kakaowa z gruszką, twarożkiem i migdałami",
+              "ingredients": [
+                {
+                  "name": "Mleko 2%",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 40,
+                  "type": "bread"
+                },
+                {
+                  "name": "Kakao w proszku",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Gruszka",
+                  "weight": 160,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Migdały",
+                  "weight": 10,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Mleko zagotować, wsypać płatki owsiane i całość gotować 3 minuty. Dodać kakao i wymieszać. Gotową owsiankę przełożyć do miseczki, dodać pokrojoną na kawałki owocu, twarożek i posypać siekanymi migdałami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Burger w sałacie z surówką",
+              "ingredients": [
+                {
+                  "name": "Wołowina mielona",
+                  "weight": 150,
+                  "type": "meat"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Musztarda",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula",
+                  "weight": 50,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mix sałat",
+                  "weight": 50,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 240,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula czerwona",
+                  "weight": 40,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Bułka żytnio-razowa",
+                  "weight": 80,
+                  "type": "bread"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 195,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Zmieszać zmielone mięso z przyprawami, musztardą i posiekaną cebulą. Uformować burgery. Upiec w airfryerze. Zawinąć burgery w liście sałaty i podawać z surówką ze świeżych warzyw skropioną oliwą."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Przekąska z orzechami",
+              "ingredients": [
+                {
+                  "name": "Banan",
+                  "weight": 100,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Orzechy nerkowca",
+                  "weight": 20,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Wymieszać składniki."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Wrap z mozzarellą",
+              "ingredients": [
+                {
+                  "name": "Jogurt naturalny",
+                  "weight": 25,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Czosnek",
+                  "weight": 3,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Tortilla pszenna pełnoziarnista",
+                  "weight": 60,
+                  "type": "bread"
+                },
+                {
+                  "name": "Ser Mozzarella",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Rzodkiewka",
+                  "weight": 75,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 120,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Wrapa zapiec z mozzarellą i pomidorem. Osobno zjeść rzodkiewki, sałatę. Do jogurtu dodać przeciśnięty czosnek i wymieszać na sos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-03-14",
+      "owner": "Szymon",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Serek wiejski w stylu śródziemnomorskim",
+              "ingredients": [
+                {
+                  "name": "Ogórek",
+                  "weight": 100,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwki czarne marynowane",
+                  "weight": 15,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Serek wiejski",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Bazylia świeża",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb żytni",
+                  "weight": 80,
+                  "type": "bread"
+                }
+              ],
+              "recipe": "Ogórek pokroić w paseczki, a oliwki w połówki. Warzywa przełożyć do serka i wymieszać. Całość doprawić do smaku, udekorować bazylią. Podawać z pieczywem."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Czekoladowa owsianka z serkiem i malinami",
+              "ingredients": [
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 30,
+                  "type": "bread"
+                },
+                {
+                  "name": "Mleko 2%",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Kakao w proszku",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Maliny mrożone",
+                  "weight": 60,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Banan",
+                  "weight": 60,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Serek wiejski",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Masło orzechowe",
+                  "weight": 30,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Płatki ugotować na mleku. Wymieszać z kakao i przełożyć do miseczki. Dodać serek, masło orzechowe i owoce."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Pierś z indyka (Air Fryer)",
+              "ingredients": [
+                {
+                  "name": "Indyk filet",
+                  "weight": 250,
+                  "type": "meat"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Przyprawa do kurczaka",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kasza gryczana palona",
+                  "weight": 60,
+                  "type": "bread"
+                },
+                {
+                  "name": "Surówka z marchwi",
+                  "weight": 200,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Mięso przełożyć do szklanego pojemnika, zalać mlekiem i włożyć przykryte do lodówki na noc. Następnego dnia wyjąć pierś z mleka, osuszyć i posypać solą oraz pieprzem. Natrzeć oliwą i przyprawą do kurczaka. Umieścić filet w komorze Air Fryera i piec 20 minut w 180 stopniach Celsjusza. Podawać z ugotowaną kaszą i surówką (marchew i jabłko zetrzeć na tarce, skropić sokiem z cytryny)."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Serek wiejski z borówkami",
+              "ingredients": [
+                {
+                  "name": "Serek wiejski",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 20,
+                  "type": "bread"
+                },
+                {
+                  "name": "Orzechy włoskie",
+                  "weight": 15,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Borówki amerykańskie",
+                  "weight": 100,
+                  "type": "fruit"
+                }
+              ],
+              "recipe": "Serek wymieszać z płatkami owsianymi, posiekanymi orzechami i szczyptą cynamonu. Do serka dodać borówki amerykańskie."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Kanapki z serkiem i wędzonym łososiem",
+              "ingredients": [
+                {
+                  "name": "Serek śmietankowy",
+                  "weight": 50,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Chleb żytni",
+                  "weight": 80,
+                  "type": "bread"
+                },
+                {
+                  "name": "Łosoś wędzony",
+                  "weight": 50,
+                  "type": "meat"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 135,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Serkiem posmarować kanapki. Udekorować plasterkami łososia oraz warzyw. Na wierzch wyłożyć warzywa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-03-15",
+      "owner": "Szymon",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Bagietka z pastą warzywną i jajkiem",
+              "ingredients": [
+                {
+                  "name": "Bagietka pszenna pełnoziarnista",
+                  "weight": 100,
+                  "type": "bread"
+                },
+                {
+                  "name": "Hummus",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Jajko kurze",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Szpinak",
+                  "weight": 25,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwki czarne marynowane",
+                  "weight": 15,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Bagietkę przekroić na pół i posmarować pastą warzywną. Na bagietkę wyłożyć plasterki jajka ugotowanego na twardo, szpinak i oliwki. Całość posypać świeżo mielonym pieprzem oraz solą."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Kremowa owsianka z borówkami i pestkami dyni",
+              "ingredients": [
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 60,
+                  "type": "bread"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 120,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Mleko 2%",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Ksylitol",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 3,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Borówki amerykańskie",
+                  "weight": 100,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Pestki dyni",
+                  "weight": 15,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "W miseczce wymieszać płatki owsiane, jogurt, mleko, erytrol i cynamon. Przykryć miskę folią spożywczą i wstawić do lodówki na całą noc. Rano wyjąć gotową owsiankę z lodówki. Na wierzch wyłożyć owoce oraz posypać pestkami dyni."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Gnocchi z pomidorkami i mozzarellą",
+              "ingredients": [
+                {
+                  "name": "Czosnek",
+                  "weight": 8,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 200,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Gnocchi",
+                  "weight": 200,
+                  "type": "bread"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kurczak pierś",
+                  "weight": 200,
+                  "type": "meat"
+                },
+                {
+                  "name": "Bazylia świeża",
+                  "weight": 10,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Podsmażyć przeciśnięty przez praskę czosnek na połowie oliwy, dorzucić przekrojone na pół pomidorki, dusić przez 3-5 minut. Dodać kolejną łyżeczkę oliwy, wrzucić gnocchi, sól i pieprz, dusić pod przykryciem 5 minut, a pod koniec dodać pokrojoną w plasterki upieczoną w airfryerze pierś z kurczaka. Przełożyć na talerz i udekorować świeżą bazylią."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Tortilla z hummusem i szynką",
+              "ingredients": [
+                {
+                  "name": "Tortilla pszenna pełnoziarnista",
+                  "weight": 60,
+                  "type": "bread"
+                },
+                {
+                  "name": "Hummus",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Papryka czerwona",
+                  "weight": 85,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Szynka z indyka",
+                  "weight": 60,
+                  "type": "meat"
+                },
+                {
+                  "name": "Pestki dyni",
+                  "weight": 5,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Tortillę posmarować hummusem, wyłożyć plastry szynki, nałożyć paski papryki i rukolę. Posypać pestkami dyni i zawinąć we wrapa."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Kanapki z musztardą, serkiem śmietankowym, szynką i kiszonym ogórkiem",
+              "ingredients": [
+                {
+                  "name": "Chleb żytni",
+                  "weight": 70,
+                  "type": "bread"
+                },
+                {
+                  "name": "Musztarda",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Serek śmietankowy",
+                  "weight": 75,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Szynka z indyka",
+                  "weight": 30,
+                  "type": "meat"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 130,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pestki dyni",
+                  "weight": 5,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Kanapki posmarować musztardą i serkiem, na wierzch ułożyć plasterki szynki, skroić ogórka. Posypać pestkami."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-03-16",
+      "owner": "Szymon",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Tortilla z mozzarellą i pesto",
+              "ingredients": [
+                {
+                  "name": "Tortilla pszenna pełnoziarnista",
+                  "weight": 62,
+                  "type": "bread"
+                },
+                {
+                  "name": "Pesto bazyliowe",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ser Mozzarella",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 80,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rukola",
+                  "weight": 20,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Tortillę podpiec na suchej patelni, posmarować pesto i dodać pokrojoną mozzarellę oraz warzywa. Zwinąć całość i podpiec na patelni. Podawać na ciepło."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Owsianka kakaowa z gruszką, twarożkiem i migdałami",
+              "ingredients": [
+                {
+                  "name": "Mleko 2%",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 40,
+                  "type": "bread"
+                },
+                {
+                  "name": "Kakao w proszku",
+                  "weight": 5,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Gruszka",
+                  "weight": 160,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 60,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Migdały",
+                  "weight": 10,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Mleko zagotować, wsypać płatki owsiane i całość gotować 3 minuty. Dodać kakao i wymieszać. Gotową owsiankę przełożyć do miseczki, dodać pokrojoną na kawałki owocu, twarożek i posypać siekanymi migdałami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Filet z kurczaka na parze z puree z groszku i surówką z kiszonej kapusty",
+              "ingredients": [
+                {
+                  "name": "Groszek zielony mrożony",
+                  "weight": 240,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Koper świeży",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kurczak pierś",
+                  "weight": 250,
+                  "type": "meat"
+                },
+                {
+                  "name": "Kapusta kiszona",
+                  "weight": 150,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Marchew",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ziemniaki",
+                  "weight": 150,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Mięso ugotować na parze. Groszek ugotować w osolonej wodzie, odcedzić, zgnieść na puree z połową oliwy i posypać koperkiem. Obrać i ugotować ziemniaki. Kapustę wymieszać z resztą oliwy oraz startą na drobnych oczkach marchewką, doprawić do smaku pieprzem."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Jabłko z orzechami",
+              "ingredients": [
+                {
+                  "name": "Jabłko",
+                  "weight": 140,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Orzechy włoskie",
+                  "weight": 30,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Orzechy nerkowca",
+                  "weight": 15,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Owoc umyć i pokroić na kawałki, zjeść z orzechami."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Hot dog z parówką drobiową i warzywami",
+              "ingredients": [
+                {
+                  "name": "Bułka grahamka",
+                  "weight": 70,
+                  "type": "bread"
+                },
+                {
+                  "name": "Ketchup łagodny bez cukru Premium (Roleski)",
+                  "weight": 15,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Musztarda",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Parówki z indyka",
+                  "weight": 45,
+                  "type": "meat"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 60,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek kiszony",
+                  "weight": 65,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula prażona",
+                  "weight": 6,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Bułkę podpiec w całości na patelni lub w piekarniku, naciąć do połowy. Parówkę ugotować. Wymieszać musztardę z ketchupem i posmarować środek bułki. Dodać sałatę, parówkę i pokrojone warzywa, posypać cebulką."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-03-17",
+      "owner": "Szymon",
+      "meals": [
+        {
+          "mealName": "breakfast",
+          "dishes": [
+            {
+              "dishName": "Kanapka z twarożkiem, szczypiorkiem, rzodkiewką i kiełkami",
+              "ingredients": [
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 100,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 15,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Rzodkiewka",
+                  "weight": 90,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Szczypiorek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Chleb pszenny pełnoziarnisty",
+                  "weight": 90,
+                  "type": "bread"
+                },
+                {
+                  "name": "Kiełki rzodkiewki",
+                  "weight": 16,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Banan",
+                  "weight": 120,
+                  "type": "fruit"
+                }
+              ],
+              "recipe": "Twaróg wymieszać z oliwą, dodać posiekaną rzodkiewkę, szczypiorek, doprawić solą i pieprzem. Pieczywo posmarować pastą twarogową, na wierzchu położyć kiełki."
+            }
+          ]
+        },
+        {
+          "mealName": "second_breakfast",
+          "dishes": [
+            {
+              "dishName": "Bowl stracciatella z malinami i masłem orzechowym",
+              "ingredients": [
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 150,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Ser twarogowy chudy",
+                  "weight": 20,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Masło orzechowe",
+                  "weight": 15,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Czekolada gorzka 70-85% kakao",
+                  "weight": 12,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Maliny mrożone",
+                  "weight": 60,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Ksylitol",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ekstrakt waniliowy",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Płatki owsiane",
+                  "weight": 40,
+                  "type": "bread"
+                }
+              ],
+              "recipe": "W misce połączyć skyr naturalny ze słodzikiem i ekstraktem z wanilii. Wymieszać całość dokładnie, aż powstanie gładki, gęsty krem. Dodać płatki owsiane zalane wrzątkiem lub podprażone na patelni. Czekoladę drobno posiekać nożem i wmieszać w przygotowany krem. Na wierzch kremu dodać masło orzechowe i posypać całość malinami."
+            }
+          ]
+        },
+        {
+          "mealName": "lunch",
+          "dishes": [
+            {
+              "dishName": "Bałkańskie szaszłyki z surówką",
+              "ingredients": [
+                {
+                  "name": "Natka pietruszki",
+                  "weight": 24,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mięta",
+                  "weight": 2,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula",
+                  "weight": 110,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Czosnek",
+                  "weight": 4,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Wołowina mielona",
+                  "weight": 200,
+                  "type": "meat"
+                },
+                {
+                  "name": "Cynamon mielony",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Czosnek w proszku",
+                  "weight": 3,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Kumin w proszku (kmin rzymski)",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Słodka papryka przyprawa",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Mix sałat",
+                  "weight": 50,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ogórek",
+                  "weight": 180,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pomidory koktajlowe",
+                  "weight": 200,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Cebula czerwona",
+                  "weight": 20,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Ziemniaki",
+                  "weight": 150,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sok z cytryny",
+                  "weight": 12,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Pietruszkę, miętę i cebulę drobno posiekać. Czosnek przecisnąć przez praskę. Mięso wymieszać z cebulą, pietruszką, miętą i czosnkiem oraz z wszystkimi przyprawami. Dodać odrobinę wody. Uformować szaszłyki i piec na grillu lub patelni. Podawać z surówką ze świeżych warzyw skropioną oliwą i sokiem z cytryny z ugotowanymi ziemniakami."
+            }
+          ]
+        },
+        {
+          "mealName": "snack",
+          "dishes": [
+            {
+              "dishName": "Malinowe smoothie",
+              "ingredients": [
+                {
+                  "name": "Mleko 2%",
+                  "weight": 125,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Skyr naturalny",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Banan",
+                  "weight": 100,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Maliny mrożone",
+                  "weight": 60,
+                  "type": "fruit"
+                },
+                {
+                  "name": "Masło orzechowe",
+                  "weight": 15,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Wszystkie składniki zmiksować do otrzymania gładkiej konsystencji."
+            }
+          ]
+        },
+        {
+          "mealName": "dinner",
+          "dishes": [
+            {
+              "dishName": "Serek wiejski z warzywami i kanapką",
+              "ingredients": [
+                {
+                  "name": "Chleb pszenny pełnoziarnisty",
+                  "weight": 40,
+                  "type": "bread"
+                },
+                {
+                  "name": "Pomidor czerwony",
+                  "weight": 80,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Sól",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Pieprz czarny",
+                  "weight": 1,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Papryka czerwona",
+                  "weight": 85,
+                  "type": "vegetable"
+                },
+                {
+                  "name": "Serek wiejski",
+                  "weight": 200,
+                  "type": "dairy"
+                },
+                {
+                  "name": "Oliwa z oliwek",
+                  "weight": 10,
+                  "type": "vegetable"
+                }
+              ],
+              "recipe": "Na kromkę z pastą położyć plastry pomidora, doprawić. Paprykę pokroić w paski, zjeść z serkiem wiejskim z oliwą i przygotowaną kanapką."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+import { Injectable, signal, computed } from '@angular/core';
+import { DietData, IngredientItem, IngredientType, CATEGORY_META } from '../models/diet.types';
+
+export type AppScreen = 'days' | 'list' | 'summary';
+
+const STEP = 10;
+
+@Injectable({ providedIn: 'root' })
+export class ShoppingListService {
+  private _dietData = signal<DietData | null>(null);
+  private _selectedDays = signal<Set<number>>(new Set());
+  private _ingredients = signal<IngredientItem[]>([]);
+  private _screen = signal<AppScreen>('days');
+  readonly replacingId = signal<string | null>(null);
+
+  readonly dietData = this._dietData.asReadonly();
+  readonly selectedDays = this._selectedDays.asReadonly();
+  readonly ingredients = this._ingredients.asReadonly();
+  readonly screen = this._screen.asReadonly();
+
+  readonly dayNumbers = computed(() => {
+    const data = this._dietData();
+    if (!data) return [];
+    return [...new Set(data.days.map(d => d.day))].sort((a, b) => a - b);
+  });
+
+  readonly allSelected = computed(() => {
+    const nums = this.dayNumbers();
+    if (!nums.length) return false;
+    const sel = this._selectedDays();
+    return nums.every(d => sel.has(d));
+  });
+
+  readonly canGenerate = computed(() => this._selectedDays().size > 0);
+
+  readonly activeIngredients = computed(() => this._ingredients().filter(i => !i.excluded));
+
+  setDietData(data: DietData): void {
+    this._dietData.set(data);
+  }
+
+  toggleDay(day: number): void {
+    const current = new Set(this._selectedDays());
+    if (current.has(day)) {
+      current.delete(day);
+    } else {
+      current.add(day);
+    }
+    this._selectedDays.set(current);
+  }
+
+  toggleSelectAll(): void {
+    if (this.allSelected()) {
+      this._selectedDays.set(new Set());
+    } else {
+      this._selectedDays.set(new Set(this.dayNumbers()));
+    }
+  }
+
+  generateList(): void {
+    const days = [...this._selectedDays()];
+    this._ingredients.set(this.buildIngredients(days));
+    this._screen.set('list');
+  }
+
+  private buildIngredients(days: number[]): IngredientItem[] {
+    const data = this._dietData();
+    if (!data) return [];
+
+    const map: Record<string, IngredientItem> = {};
+    data.days
+      .filter(d => days.includes(d.day))
+      .forEach(dayEntry => {
+        dayEntry.meals.forEach(meal => {
+          meal.dishes.forEach(dish => {
+            dish.ingredients.forEach(ing => {
+              const key = `${ing.name.toLowerCase().trim()}|${ing.type}`;
+              if (!map[key]) {
+                map[key] = {
+                  id: key,
+                  name: ing.name,
+                  type: (ing.type || 'vegetable') as IngredientType,
+                  totalWeight: 0,
+                  adjustedWeight: 0,
+                  usages: [],
+                  excluded: false,
+                };
+              }
+              map[key].totalWeight += ing.weight;
+              map[key].usages.push({
+                day: dayEntry.day,
+                owner: dayEntry.owner,
+                meal: meal.mealName,
+                dish: dish.dishName,
+                weight: ing.weight,
+              });
+            });
+          });
+        });
+      });
+
+    Object.values(map).forEach(ing => { ing.adjustedWeight = ing.totalWeight; });
+    return Object.values(map);
+  }
+
+  toggleExclude(id: string): void {
+    this._ingredients.update(items =>
+      items.map(i => i.id === id ? { ...i, excluded: !i.excluded } : i)
+    );
+  }
+
+  adjustWeight(id: string, delta: number): void {
+    this._ingredients.update(items =>
+      items.map(i => i.id === id
+        ? { ...i, adjustedWeight: Math.max(STEP, i.adjustedWeight + delta) }
+        : i
+      )
+    );
+  }
+
+  replaceItem(id: string, newName: string): void {
+    this._ingredients.update(items =>
+      items.map(i => {
+        if (i.id !== id) return i;
+        const newId = `${newName.toLowerCase().trim()}|${i.type}`;
+        return { ...i, id: newId, name: newName };
+      })
+    );
+  }
+
+  deleteItem(id: string): void {
+    this._ingredients.update(items => items.filter(i => i.id !== id));
+  }
+
+  resetList(): void {
+    const days = [...this._selectedDays()];
+    this._ingredients.set(this.buildIngredients(days));
+  }
+
+  finalize(): void {
+    this._screen.set('summary');
+  }
+
+  goToList(): void {
+    this._screen.set('list');
+  }
+
+  goToDays(): void {
+    this._screen.set('days');
+  }
+
+  startOver(): void {
+    this._selectedDays.set(new Set());
+    this._ingredients.set([]);
+    this._screen.set('days');
+  }
+
+  groupedIngredients(items: IngredientItem[]): [IngredientType, IngredientItem[]][] {
+    const map: Partial<Record<IngredientType, IngredientItem[]>> = {};
+    items.forEach(ing => {
+      const t = (ing.type || 'vegetable') as IngredientType;
+      if (!map[t]) map[t] = [];
+      map[t]!.push(ing);
+    });
+    return (Object.entries(map) as [IngredientType, IngredientItem[]][])
+      .sort(([a], [b]) => {
+        const oa = CATEGORY_META[a]?.order ?? 99;
+        const ob = CATEGORY_META[b]?.order ?? 99;
+        return oa - ob;
+      });
+  }
+
+  formatDate(dateStr: string): string {
+    try {
+      return new Date(dateStr).toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+    } catch {
+      return dateStr;
+    }
+  }
+
+  getSelectedDaysSorted(): number[] {
+    return [...this._selectedDays()].sort((a, b) => a - b);
+  }
+}
