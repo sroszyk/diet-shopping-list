@@ -4,6 +4,7 @@ import { DietData, IngredientItem, IngredientType, CATEGORY_META } from '../mode
 export type AppScreen = 'days' | 'list' | 'summary';
 
 const STEP = 10;
+const DEFAULT_MULTIPLIER = 2;
 
 @Injectable({ providedIn: 'root' })
 export class ShoppingListService {
@@ -11,12 +12,14 @@ export class ShoppingListService {
   private _selectedDays = signal<Set<number>>(new Set());
   private _ingredients = signal<IngredientItem[]>([]);
   private _screen = signal<AppScreen>('days');
+  private _dayMultipliers = signal<Record<number, Record<string, number>>>({});
   readonly replacingId = signal<string | null>(null);
 
   readonly dietData = this._dietData.asReadonly();
   readonly selectedDays = this._selectedDays.asReadonly();
   readonly ingredients = this._ingredients.asReadonly();
   readonly screen = this._screen.asReadonly();
+  readonly dayMultipliers = this._dayMultipliers.asReadonly();
 
   readonly dayNumbers = computed(() => {
     const data = this._dietData();
@@ -63,14 +66,38 @@ export class ShoppingListService {
     this._screen.set('list');
   }
 
+  ownersForDay(day: number): string[] {
+    const data = this._dietData();
+    if (!data) return [];
+    const owners = new Set<string>();
+    for (const d of data.days) {
+      if (d.day === day) owners.add(d.owner);
+    }
+    return [...owners].sort();
+  }
+
+  getMultiplier(day: number, owner: string): number {
+    return this._dayMultipliers()[day]?.[owner] ?? DEFAULT_MULTIPLIER;
+  }
+
+  setMultiplier(day: number, owner: string, delta: number): void {
+    this._dayMultipliers.update(m => {
+      const current = m[day]?.[owner] ?? DEFAULT_MULTIPLIER;
+      const next = Math.max(1, current + delta);
+      return { ...m, [day]: { ...(m[day] ?? {}), [owner]: next } };
+    });
+  }
+
   private buildIngredients(days: number[]): IngredientItem[] {
     const data = this._dietData();
     if (!data) return [];
+    const multipliers = this._dayMultipliers();
 
     const map: Record<string, IngredientItem> = {};
     data.days
       .filter(d => days.includes(d.day))
       .forEach(dayEntry => {
+        const factor = multipliers[dayEntry.day]?.[dayEntry.owner] ?? DEFAULT_MULTIPLIER;
         dayEntry.meals.forEach(meal => {
           meal.dishes.forEach(dish => {
             dish.ingredients.forEach(ing => {
@@ -86,13 +113,14 @@ export class ShoppingListService {
                   excluded: false,
                 };
               }
-              map[key].totalWeight += ing.weight;
+              const scaledWeight = ing.weight * factor;
+              map[key].totalWeight += scaledWeight;
               map[key].usages.push({
                 day: dayEntry.day,
                 owner: dayEntry.owner,
                 meal: meal.mealName,
                 dish: dish.dishName,
-                weight: ing.weight,
+                weight: scaledWeight,
               });
             });
           });
@@ -152,6 +180,7 @@ export class ShoppingListService {
   startOver(): void {
     this._selectedDays.set(new Set());
     this._ingredients.set([]);
+    this._dayMultipliers.set({});
     this._screen.set('days');
   }
 
