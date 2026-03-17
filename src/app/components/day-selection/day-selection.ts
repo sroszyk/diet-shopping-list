@@ -1,17 +1,22 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, output } from '@angular/core';
 import { ShoppingListService } from '../../services/shopping-list.service';
+import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
 
 @Component({
   selector: 'app-day-selection',
+  imports: [HamburgerMenuComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="screen active">
       <header class="app-header">
         <div class="header-top">
           <h1 class="app-title">Diet Shopping List</h1>
-          <button class="btn-text-action" (click)="listService.toggleSelectAll()">
-            {{ listService.allSelected() ? 'Deselect All' : 'Select All' }}
-          </button>
+          <div class="header-actions">
+            <button class="btn-text-action" (click)="listService.toggleSelectAll()">
+              {{ listService.allSelected() ? 'Deselect All' : 'Select All' }}
+            </button>
+            <app-hamburger-menu (adminSelected)="adminSelected.emit()" />
+          </div>
         </div>
         <p class="app-subtitle">Select the days you want to include in your plan.</p>
       </header>
@@ -79,6 +84,7 @@ import { ShoppingListService } from '../../services/shopping-list.service';
   `,
 })
 export class DaySelectionComponent {
+  readonly adminSelected = output<void>();
   listService = inject(ShoppingListService);
 
   padDay(num: number): string {

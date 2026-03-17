@@ -7,7 +7,6 @@ import { ShoppingListComponent } from './components/shopping-list/shopping-list'
 import { SummaryComponent } from './components/summary/summary';
 import { ToastComponent } from './components/toast/toast';
 import { ReplaceModalComponent } from './components/replace-modal/replace-modal';
-import { HamburgerMenuComponent } from './components/hamburger-menu/hamburger-menu';
 import { AdminPanelComponent } from './components/admin-panel/admin-panel';
 
 @Component({
@@ -18,7 +17,6 @@ import { AdminPanelComponent } from './components/admin-panel/admin-panel';
     SummaryComponent,
     ToastComponent,
     ReplaceModalComponent,
-    HamburgerMenuComponent,
     AdminPanelComponent,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -43,16 +41,15 @@ import { AdminPanelComponent } from './components/admin-panel/admin-panel';
       </div>
     } @else {
       @if (listService.screen() === 'days') {
-        <app-day-selection />
+        <app-day-selection (adminSelected)="openAdmin()" />
       }
       @if (listService.screen() === 'list') {
-        <app-shopping-list />
+        <app-shopping-list (adminSelected)="openAdmin()" />
       }
       @if (listService.screen() === 'summary') {
-        <app-summary />
+        <app-summary (adminSelected)="openAdmin()" />
       }
     }
-    <app-hamburger-menu (adminSelected)="openAdmin()" />
     <app-toast />
     <app-replace-modal />
   `,
