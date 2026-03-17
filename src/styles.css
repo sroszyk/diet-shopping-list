@@ -181,16 +181,15 @@ body {
   background: #fff;
   border: 2px solid var(--gray-200);
   border-radius: var(--radius-lg);
-  padding: 16px 14px 18px;
+  padding: 16px 14px 14px;
   cursor: pointer;
   transition: border-color 0.15s, background 0.15s, transform 0.1s, box-shadow 0.15s;
   user-select: none;
   box-shadow: var(--shadow-sm);
   position: relative;
-  min-height: 130px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 6px;
 }
 .day-card:hover { box-shadow: var(--shadow); transform: translateY(-1px); }
 .day-card:active { transform: scale(0.97); }
@@ -238,7 +237,6 @@ body {
   font-weight: 900;
   color: var(--gray-800);
   line-height: 1;
-  margin-top: 8px;
 }
 .day-card.selected .day-number { color: var(--blue-700); }
 
@@ -249,6 +247,70 @@ body {
   font-weight: 500;
 }
 .day-card.selected .day-date { color: var(--blue-500); }
+
+/* ====== Day card multiplier controls ====== */
+.day-multipliers {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.day-multiplier-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.day-multiplier-owner {
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--gray-500);
+  flex: 1;
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.day-card.selected .day-multiplier-owner { color: var(--blue-600); }
+
+.day-multiplier-controls {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.day-mult-btn {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1.5px solid var(--gray-300);
+  background: #fff;
+  color: var(--gray-600);
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  line-height: 1;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+.day-mult-btn:hover { border-color: var(--blue-500); background: var(--blue-50); color: var(--blue-600); }
+.day-card.selected .day-mult-btn { border-color: var(--blue-300); }
+.day-card.selected .day-mult-btn:hover { border-color: var(--blue-600); }
+
+.day-mult-value {
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: var(--gray-700);
+  min-width: 22px;
+  text-align: center;
+}
+.day-card.selected .day-mult-value { color: var(--blue-700); }
 
 /* ====== Stats bar (Screen 2) ====== */
 .stats-bar {

@@ -39,9 +39,27 @@ import { ShoppingListService } from '../../services/shopping-list.service';
                   <span class="day-check" aria-hidden="true">✓</span>
                 </div>
                 <div class="day-number">{{ padDay(num) }}</div>
-                @if (dateFor(num)) {
-                  <div class="day-date">{{ dateFor(num) }}</div>
-                }
+                <div class="day-multipliers"
+                  (click)="$event.stopPropagation()"
+                  (keydown.enter)="$event.stopPropagation()"
+                  (keydown.space)="$event.stopPropagation()">
+                  @for (owner of listService.ownersForDay(num); track owner) {
+                    <div class="day-multiplier-row">
+                      <span class="day-multiplier-owner">{{ owner }}</span>
+                      <div class="day-multiplier-controls">
+                        <button
+                          class="day-mult-btn"
+                          (click)="listService.setMultiplier(num, owner, -1)"
+                          [attr.aria-label]="'Decrease multiplier for ' + owner + ' on day ' + num">−</button>
+                        <span class="day-mult-value">×{{ listService.getMultiplier(num, owner) }}</span>
+                        <button
+                          class="day-mult-btn"
+                          (click)="listService.setMultiplier(num, owner, 1)"
+                          [attr.aria-label]="'Increase multiplier for ' + owner + ' on day ' + num">+</button>
+                      </div>
+                    </div>
+                  }
+                </div>
               </div>
             }
           </div>
@@ -65,13 +83,5 @@ export class DaySelectionComponent {
 
   padDay(num: number): string {
     return String(num).padStart(2, '0');
-  }
-
-  dateFor(num: number): string {
-    const data = this.listService.dietData();
-    if (!data) return '';
-    const entry = data.days.find(d => d.day === num);
-    if (!entry?.date) return '';
-    return this.listService.formatDate(entry.date);
   }
 }
