@@ -1,10 +1,12 @@
-import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject, output } from '@angular/core';
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
 import { CATEGORY_META } from '../../models/diet.types';
+import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
 
 @Component({
   selector: 'app-summary',
+  imports: [HamburgerMenuComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="screen active">
@@ -18,7 +20,7 @@ import { CATEGORY_META } from '../../models/diet.types';
             <h2 class="screen-title">Final List</h2>
             <span class="screen-subtitle">READY TO SHOP</span>
           </div>
-          <div style="width:40px" aria-hidden="true"></div>
+          <app-hamburger-menu (adminSelected)="adminSelected.emit()" />
         </div>
       </header>
 
@@ -66,6 +68,7 @@ import { CATEGORY_META } from '../../models/diet.types';
   `,
 })
 export class SummaryComponent {
+  readonly adminSelected = output<void>();
   listService = inject(ShoppingListService);
   private toastService = inject(ToastService);
 

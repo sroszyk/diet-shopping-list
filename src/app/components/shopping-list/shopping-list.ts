@@ -1,12 +1,13 @@
-import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject, output } from '@angular/core';
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
 import { IngredientCardComponent } from '../ingredient-card/ingredient-card';
 import { CATEGORY_META } from '../../models/diet.types';
+import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
 
 @Component({
   selector: 'app-shopping-list',
-  imports: [IngredientCardComponent],
+  imports: [IngredientCardComponent, HamburgerMenuComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="screen active">
@@ -20,9 +21,12 @@ import { CATEGORY_META } from '../../models/diet.types';
             <h2 class="screen-title">Shopping List</h2>
             <span class="screen-subtitle">EDIT MODE</span>
           </div>
-          <button
-            class="btn-text-action btn-text-action--danger"
-            (click)="resetList()">Reset</button>
+          <div class="header-actions">
+            <button
+              class="btn-text-action btn-text-action--danger"
+              (click)="resetList()">Reset</button>
+            <app-hamburger-menu (adminSelected)="adminSelected.emit()" />
+          </div>
         </div>
       </header>
 
@@ -68,6 +72,7 @@ import { CATEGORY_META } from '../../models/diet.types';
   `,
 })
 export class ShoppingListComponent {
+  readonly adminSelected = output<void>();
   listService = inject(ShoppingListService);
   private toastService = inject(ToastService);
 
