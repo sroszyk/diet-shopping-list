@@ -1,5 +1,14 @@
 export type IngredientType = 'fruit' | 'vegetable' | 'dairy' | 'meat' | 'bread';
 
+export interface IngredientTypeConfig {
+  name: string;
+  icon: string;
+}
+
+export interface AdminConfig {
+  ingredientTypes: IngredientTypeConfig[];
+}
+
 export interface Ingredient {
   name: string;
   weight: number;

@@ -1,0 +1,9 @@
+{
+  "ingredientTypes": [
+    { "name": "fruit", "icon": "🍎" },
+    { "name": "vegetable", "icon": "🥦" },
+    { "name": "dairy", "icon": "🧀" },
+    { "name": "meat", "icon": "🥩" },
+    { "name": "bread", "icon": "🍞" }
+  ]
+}
