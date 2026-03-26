@@ -91,9 +91,10 @@ export class IngredientCardComponent {
 
   weightDisplay(): string {
     const i = this.item();
+    const miara = i.miara ? ` (${i.miara})` : '';
     return i.adjustedWeight !== i.totalWeight
-      ? `${i.adjustedWeight}G (orig. ${i.totalWeight}G)`
-      : `${i.adjustedWeight}G NEEDED`;
+      ? `${i.adjustedWeight}G (orig. ${i.totalWeight}G)${miara}`
+      : `${i.adjustedWeight}G NEEDED${miara}`;
   }
 
   toggleExclude(): void {

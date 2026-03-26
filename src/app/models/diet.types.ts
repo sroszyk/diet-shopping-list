@@ -13,6 +13,7 @@ export interface Ingredient {
   name: string;
   weight: number;
   type: IngredientType;
+  miara?: string;
 }
 
 export interface Dish {
@@ -53,6 +54,7 @@ export interface IngredientItem {
   adjustedWeight: number;
   usages: IngredientUsage[];
   excluded: boolean;
+  miara?: string;
 }
 
 export const CATEGORY_META: Record<IngredientType, { label: string; icon: string; order: number }> = {

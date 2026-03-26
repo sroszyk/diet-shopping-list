@@ -111,6 +111,7 @@ export class ShoppingListService {
                   adjustedWeight: 0,
                   usages: [],
                   excluded: false,
+                  miara: ing.miara,
                 };
               }
               const scaledWeight = ing.weight * factor;
