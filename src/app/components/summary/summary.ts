@@ -47,7 +47,10 @@ import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
                 <span class="summary-item-name">
                   {{ categoryIcon(ing.type) }} {{ ing.name }}
                 </span>
-                <span class="summary-item-amount">{{ ing.adjustedWeight }}g</span>
+                <span class="summary-item-amount">
+                  {{ ing.adjustedWeight }}g
+                  @if (ing.miara) { ({{ ing.miara }}) }
+                </span>
               </div>
             }
           </section>

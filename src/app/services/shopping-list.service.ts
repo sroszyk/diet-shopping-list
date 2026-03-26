@@ -6,6 +6,24 @@ export type AppScreen = 'days' | 'list' | 'summary';
 const STEP = 10;
 const DEFAULT_MULTIPLIER = 2;
 
+const SIZE_WORDS = new Set([
+  'mała', 'małe', 'mały',
+  'duża', 'duże', 'duży',
+  'średnia', 'średnie', 'średni',
+]);
+
+function normalizeMiara(miara: string): { quantity: number; unit: string } | null {
+  const match = miara.trim().match(/^([\d.]+)\s+(.+)$/);
+  if (!match) return null;
+  const quantity = parseFloat(match[1]);
+  if (isNaN(quantity)) return null;
+  const parts = match[2].trim().split(/\s+/);
+  const unit = (parts.length >= 2 && SIZE_WORDS.has(parts[0]))
+    ? parts.slice(1).join(' ')
+    : parts.join(' ');
+  return { quantity, unit };
+}
+
 @Injectable({ providedIn: 'root' })
 export class ShoppingListService {
   private _dietData = signal<DietData | null>(null);
@@ -94,6 +112,7 @@ export class ShoppingListService {
     const multipliers = this._dayMultipliers();
 
     const map: Record<string, IngredientItem> = {};
+    const miaraAcc: Record<string, { quantity: number; unit: string }> = {};
     data.days
       .filter(d => days.includes(d.day))
       .forEach(dayEntry => {
@@ -111,7 +130,6 @@ export class ShoppingListService {
                   adjustedWeight: 0,
                   usages: [],
                   excluded: false,
-                  miara: ing.miara,
                 };
               }
               const scaledWeight = ing.weight * factor;
@@ -123,12 +141,30 @@ export class ShoppingListService {
                 dish: dish.dishName,
                 weight: scaledWeight,
               });
+              if (ing.miara) {
+                const parsed = normalizeMiara(ing.miara);
+                if (parsed) {
+                  const scaledQty = parsed.quantity * factor;
+                  if (!miaraAcc[key]) {
+                    miaraAcc[key] = { quantity: scaledQty, unit: parsed.unit };
+                  } else {
+                    miaraAcc[key].quantity += scaledQty;
+                  }
+                }
+              }
             });
           });
         });
       });
 
-    Object.values(map).forEach(ing => { ing.adjustedWeight = ing.totalWeight; });
+    Object.values(map).forEach(ing => {
+      ing.adjustedWeight = ing.totalWeight;
+      const acc = miaraAcc[ing.id];
+      if (acc) {
+        const qty = parseFloat(acc.quantity.toFixed(2));
+        ing.miara = `${qty} ${acc.unit}`;
+      }
+    });
     return Object.values(map);
   }
 
