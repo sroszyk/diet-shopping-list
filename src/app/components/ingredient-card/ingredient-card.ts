@@ -38,33 +38,37 @@ import { ToastService } from '../../services/toast.service';
 
       @if (expanded()) {
         <div class="ingredient-expanded open">
-          <div class="adjust-row">
-            <span class="adjust-label">Adjust total grams:</span>
-            <div class="adjust-controls">
-              <button
-                class="adjust-btn"
-                [attr.aria-label]="'Decrease weight of ' + item().name"
-                (click)="listService.adjustWeight(item().id, -10)">−</button>
-              <span class="adjust-value">{{ item().adjustedWeight }}</span>
-              <button
-                class="adjust-btn"
-                [attr.aria-label]="'Increase weight of ' + item().name"
-                (click)="listService.adjustWeight(item().id, 10)">+</button>
-            </div>
-          </div>
-
-          <div class="usage-label">Used in plan:</div>
-          <div class="usage-list">
-            @for (u of item().usages; track $index) {
-              <div class="usage-item">
-                <span class="usage-item-name">Day {{ u.day }}: {{ u.dish }} ({{ u.owner }})</span>
-                <span class="usage-item-amount">{{ u.weight }}g</span>
+          @if (!item().custom) {
+            <div class="adjust-row">
+              <span class="adjust-label">Adjust total grams:</span>
+              <div class="adjust-controls">
+                <button
+                  class="adjust-btn"
+                  [attr.aria-label]="'Decrease weight of ' + item().name"
+                  (click)="listService.adjustWeight(item().id, -10)">−</button>
+                <span class="adjust-value">{{ item().adjustedWeight }}</span>
+                <button
+                  class="adjust-btn"
+                  [attr.aria-label]="'Increase weight of ' + item().name"
+                  (click)="listService.adjustWeight(item().id, 10)">+</button>
               </div>
-            }
-          </div>
+            </div>
+
+            <div class="usage-label">Used in plan:</div>
+            <div class="usage-list">
+              @for (u of item().usages; track $index) {
+                <div class="usage-item">
+                  <span class="usage-item-name">Day {{ u.day }}: {{ u.dish }} ({{ u.owner }})</span>
+                  <span class="usage-item-amount">{{ u.weight }}g</span>
+                </div>
+              }
+            </div>
+          }
 
           <div class="card-actions">
-            <button class="replace-btn" (click)="startReplace()">↔ REPLACE ITEM</button>
+            @if (!item().custom) {
+              <button class="replace-btn" (click)="startReplace()">↔ REPLACE ITEM</button>
+            }
             <button
               class="delete-btn"
               [attr.aria-label]="'Remove ' + item().name + ' from list'"
@@ -91,6 +95,9 @@ export class IngredientCardComponent {
 
   weightDisplay(): string {
     const i = this.item();
+    if (i.custom) {
+      return i.freeQuantity ? i.freeQuantity : 'Custom item';
+    }
     const miara = i.miara ? ` (${i.miara})` : '';
     return i.adjustedWeight !== i.totalWeight
       ? `${i.adjustedWeight}G (orig. ${i.totalWeight}G)${miara}`
