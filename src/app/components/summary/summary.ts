@@ -106,7 +106,10 @@ export class SummaryComponent {
     groups.forEach(([type, items]) => {
       const meta = CATEGORY_META[type as keyof typeof CATEGORY_META];
       lines.push(`--- ${(meta?.label ?? type).toUpperCase()} ---`);
-      items.forEach(ing => lines.push(`• ${ing.name}: ${ing.adjustedWeight}g`));
+      items.forEach(ing => {
+        const miara = ing.miara ? ` (${ing.miara})` : '';
+        lines.push(`• ${ing.name}: ${ing.adjustedWeight}g${miara}`);
+      });
       lines.push('');
     });
     const text = lines.join('\n');
