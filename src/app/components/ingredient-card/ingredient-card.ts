@@ -17,6 +17,11 @@ import { ToastService } from '../../services/toast.service';
           <div class="ingredient-meta">{{ weightDisplay() }}</div>
         </div>
         <div class="ingredient-actions">
+          <button
+            class="edit-name-btn"
+            [attr.aria-label]="'Edit name of ' + item().name"
+            title="Edit name"
+            (click)="startReplace()"><span aria-hidden="true">✏️</span></button>
           <label
             class="toggle-wrap"
             [title]="item().excluded ? 'Mark as needed' : 'Mark as in stock'">

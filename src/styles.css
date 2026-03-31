@@ -456,6 +456,20 @@ body {
 .toggle-wrap input:checked + .toggle-slider { background: var(--blue-500); }
 .toggle-wrap input:checked + .toggle-slider::after { transform: translateX(20px); }
 
+.edit-name-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  opacity: 0.55;
+  transition: opacity 0.15s;
+  border-radius: 6px;
+}
+.edit-name-btn:hover { opacity: 1; background: var(--gray-100); }
+
 .expand-btn {
   background: none;
   border: none;
