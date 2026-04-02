@@ -1,6 +1,7 @@
-import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AdminConfigService } from '../../services/admin-config.service';
+import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
 
 const COMMON_ICONS = [
@@ -18,7 +19,7 @@ const COMMON_ICONS = [
     <div class="admin-panel" role="region" aria-label="Admin panel">
       <header class="admin-panel-header">
         <h2 class="admin-panel-title">⚙️ Admin</h2>
-        <p class="admin-panel-subtitle">Manage ingredient types</p>
+        <p class="admin-panel-subtitle">Manage ingredient types and categories</p>
       </header>
 
       <section class="admin-section">
@@ -71,6 +72,42 @@ const COMMON_ICONS = [
         </div>
       </section>
 
+      <section class="admin-section">
+        <h3 class="admin-section-heading">Ingredient Category Assignments</h3>
+        @if (allIngredients().length === 0) {
+          <p class="admin-no-ingredients">No ingredient data loaded yet.</p>
+        } @else {
+          <div class="admin-ingredient-search">
+            <input
+              class="admin-input"
+              type="search"
+              placeholder="Search ingredients…"
+              [ngModel]="searchQuery()"
+              (ngModelChange)="searchQuery.set($event)"
+              aria-label="Search ingredients" />
+          </div>
+          <ul class="admin-ingredient-list" aria-label="Ingredient category assignments">
+            @for (ing of filteredIngredients(); track ing.name) {
+              <li class="admin-ingredient-item">
+                <span class="admin-ingredient-name">{{ ing.name }}</span>
+                <select
+                  class="admin-ingredient-select"
+                  [value]="adminService.getIngredientCategory(ing.name, ing.defaultType)"
+                  (change)="updateCategory(ing.name, $any($event.target).value)"
+                  [attr.aria-label]="'Category for ' + ing.name">
+                  @for (type of adminService.config().ingredientTypes; track type.name) {
+                    <option [value]="type.name">{{ type.icon }} {{ type.name }}</option>
+                  }
+                </select>
+              </li>
+            }
+          </ul>
+          @if (filteredIngredients().length === 0) {
+            <p class="admin-no-ingredients">No ingredients match your search.</p>
+          }
+        }
+      </section>
+
       <div class="admin-actions">
         <button class="btn-secondary btn-flex" type="button" (click)="save()">
           <span aria-hidden="true">💾</span> Save
@@ -84,11 +121,40 @@ const COMMON_ICONS = [
 })
 export class AdminPanelComponent {
   readonly adminService = inject(AdminConfigService);
+  private shoppingListService = inject(ShoppingListService);
   private toastService = inject(ToastService);
 
   readonly icons = COMMON_ICONS;
   readonly newName = signal('');
   readonly selectedIcon = signal('');
+  readonly searchQuery = signal('');
+
+  readonly allIngredients = computed(() => {
+    const data = this.shoppingListService.dietData();
+    if (!data) return [];
+    const map = new Map<string, string>();
+    for (const day of data.days) {
+      for (const meal of day.meals) {
+        for (const dish of meal.dishes) {
+          for (const ing of dish.ingredients) {
+            if (!map.has(ing.name)) {
+              map.set(ing.name, ing.type);
+            }
+          }
+        }
+      }
+    }
+    return [...map.entries()]
+      .map(([name, defaultType]) => ({ name, defaultType }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+  });
+
+  readonly filteredIngredients = computed(() => {
+    const q = this.searchQuery().toLowerCase().trim();
+    const all = this.allIngredients();
+    if (!q) return all;
+    return all.filter(i => i.name.toLowerCase().includes(q));
+  });
 
   canAdd(): boolean {
     return this.newName().trim().length > 0 && this.selectedIcon().length > 0;
@@ -113,6 +179,10 @@ export class AdminPanelComponent {
     this.newName.set('');
     this.selectedIcon.set('');
     this.toastService.show(`Added type "${name}"`);
+  }
+
+  updateCategory(ingredientName: string, category: string): void {
+    this.adminService.updateIngredientCategory(ingredientName, category);
   }
 
   save(): void {
