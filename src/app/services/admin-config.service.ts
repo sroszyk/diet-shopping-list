@@ -38,6 +38,20 @@ export class AdminConfigService {
     }));
   }
 
+  updateIngredientCategory(ingredientName: string, category: string): void {
+    this.config.update(cfg => ({
+      ...cfg,
+      ingredientCategories: {
+        ...(cfg.ingredientCategories ?? {}),
+        [ingredientName]: category,
+      },
+    }));
+  }
+
+  getIngredientCategory(ingredientName: string, defaultCategory: string): string {
+    return this.config().ingredientCategories?.[ingredientName] ?? defaultCategory;
+  }
+
   saveConfig(): void {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(this.config()));
   }

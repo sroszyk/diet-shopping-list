@@ -7,6 +7,7 @@ export interface IngredientTypeConfig {
 
 export interface AdminConfig {
   ingredientTypes: IngredientTypeConfig[];
+  ingredientCategories?: Record<string, string>;
 }
 
 export interface Ingredient {
