@@ -113,7 +113,7 @@ export class SummaryComponent {
       items.forEach(ing => {
         const amount = ing.custom
           ? (ing.freeQuantity || '—')
-          : `${ing.adjustedWeight}g`;
+          : `${ing.adjustedWeight}g${ing.miara ? ` (${ing.miara})` : ''}`;
         lines.push(`• ${ing.name}: ${amount}`);
       });
       lines.push('');
