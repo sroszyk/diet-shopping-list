@@ -48,8 +48,12 @@ import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
                   {{ categoryIcon(ing.type) }} {{ ing.name }}
                 </span>
                 <span class="summary-item-amount">
-                  {{ ing.adjustedWeight }}g
-                  @if (ing.miara) { ({{ ing.miara }}) }
+                  @if (ing.custom) {
+                    {{ ing.freeQuantity || '—' }}
+                  } @else {
+                    {{ ing.adjustedWeight }}g
+                    @if (ing.miara) { ({{ ing.miara }}) }
+                  }
                 </span>
               </div>
             }
@@ -106,7 +110,12 @@ export class SummaryComponent {
     groups.forEach(([type, items]) => {
       const meta = CATEGORY_META[type as keyof typeof CATEGORY_META];
       lines.push(`--- ${(meta?.label ?? type).toUpperCase()} ---`);
-      items.forEach(ing => lines.push(`• ${ing.name}: ${ing.adjustedWeight}g`));
+      items.forEach(ing => {
+        const amount = ing.custom
+          ? (ing.freeQuantity || '—')
+          : `${ing.adjustedWeight}g`;
+        lines.push(`• ${ing.name}: ${amount}`);
+      });
       lines.push('');
     });
     const text = lines.join('\n');

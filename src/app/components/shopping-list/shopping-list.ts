@@ -1,8 +1,8 @@
-import { ChangeDetectionStrategy, Component, computed, inject, output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject, output, signal } from '@angular/core';
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
 import { IngredientCardComponent } from '../ingredient-card/ingredient-card';
-import { CATEGORY_META } from '../../models/diet.types';
+import { CATEGORY_META, IngredientType } from '../../models/diet.types';
 import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
 
 @Component({
@@ -60,6 +60,63 @@ import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
             }
           </section>
         }
+
+        <section class="custom-item-section">
+          @if (!showCustomForm()) {
+            <button
+              class="custom-item-toggle"
+              aria-expanded="false"
+              (click)="showCustomForm.set(true)">
+              <span aria-hidden="true">➕</span> Add Custom Item
+            </button>
+          } @else {
+            <div class="custom-item-form" role="form" aria-label="Add custom item">
+              <div class="custom-item-form-title">Add Custom Item</div>
+              <div class="custom-item-field">
+                <label for="custom-category" class="custom-item-label">Category</label>
+                <select
+                  id="custom-category"
+                  class="custom-item-select"
+                  [value]="customType()"
+                  (change)="customType.set($any($event.target).value)">
+                  @for (entry of categoryEntries; track entry.type) {
+                    <option [value]="entry.type">{{ entry.icon }} {{ entry.label }}</option>
+                  }
+                </select>
+              </div>
+              <div class="custom-item-field">
+                <label for="custom-name" class="custom-item-label">Item name</label>
+                <input
+                  id="custom-name"
+                  type="text"
+                  class="custom-item-input"
+                  placeholder="e.g. Almond milk"
+                  [value]="customName()"
+                  (input)="customName.set($any($event.target).value)"
+                  (keydown.enter)="addCustomItem()"
+                  aria-required="true" />
+              </div>
+              <div class="custom-item-field">
+                <label for="custom-qty" class="custom-item-label">Quantity <span class="custom-item-optional">(optional)</span></label>
+                <input
+                  id="custom-qty"
+                  type="text"
+                  class="custom-item-input"
+                  placeholder="e.g. a handful, 2 packs"
+                  [value]="customQty()"
+                  (input)="customQty.set($any($event.target).value)"
+                  (keydown.enter)="addCustomItem()" />
+              </div>
+              <div class="custom-item-actions">
+                <button class="btn-secondary" (click)="cancelCustomItem()">Cancel</button>
+                <button
+                  class="btn-primary"
+                  [disabled]="!customName().trim()"
+                  (click)="addCustomItem()">Add Item</button>
+              </div>
+            </div>
+          }
+        </section>
       </main>
 
       <div class="sticky-bottom">
@@ -90,9 +147,33 @@ export class ShoppingListComponent {
     this.listService.groupedIngredients(this.listService.ingredients())
   );
 
+  readonly showCustomForm = signal(false);
+  readonly customName = signal('');
+  readonly customQty = signal('');
+  readonly customType = signal<IngredientType>('vegetable');
+
+  readonly categoryEntries = (Object.entries(CATEGORY_META) as [IngredientType, { label: string; icon: string; order: number }][])
+    .sort(([, a], [, b]) => a.order - b.order)
+    .map(([type, meta]) => ({ type, label: meta.label, icon: meta.icon }));
+
   categoryLabel(type: string): string {
     const meta = CATEGORY_META[type as keyof typeof CATEGORY_META];
     return (meta?.label ?? type).toUpperCase();
+  }
+
+  addCustomItem(): void {
+    const name = this.customName().trim();
+    if (!name) return;
+    this.listService.addCustomItem(name, this.customType(), this.customQty());
+    this.toastService.show(`"${name}" added to list`);
+    this.cancelCustomItem();
+  }
+
+  cancelCustomItem(): void {
+    this.showCustomForm.set(false);
+    this.customName.set('');
+    this.customQty.set('');
+    this.customType.set('vegetable');
   }
 
   resetList(): void {
