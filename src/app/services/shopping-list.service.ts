@@ -197,6 +197,24 @@ export class ShoppingListService {
     this._ingredients.update(items => items.filter(i => i.id !== id));
   }
 
+  addCustomItem(name: string, type: IngredientType, freeQuantity: string): void {
+    const trimmedName = name.trim();
+    if (!trimmedName) return;
+    const id = `custom|${trimmedName.toLowerCase()}|${type}|${Date.now()}`;
+    const item: IngredientItem = {
+      id,
+      name: trimmedName,
+      type,
+      totalWeight: 0,
+      adjustedWeight: 0,
+      usages: [],
+      excluded: false,
+      custom: true,
+      freeQuantity: freeQuantity.trim() || undefined,
+    };
+    this._ingredients.update(items => [...items, item]);
+  }
+
   resetList(): void {
     const days = [...this._selectedDays()];
     this._ingredients.set(this.buildIngredients(days));

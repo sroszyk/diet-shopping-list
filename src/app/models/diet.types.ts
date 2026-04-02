@@ -55,6 +55,8 @@ export interface IngredientItem {
   usages: IngredientUsage[];
   excluded: boolean;
   miara?: string;
+  custom?: boolean;
+  freeQuantity?: string;
 }
 
 export const CATEGORY_META: Record<IngredientType, { label: string; icon: string; order: number }> = {
