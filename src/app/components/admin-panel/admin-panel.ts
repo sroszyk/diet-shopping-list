@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { TitleCasePipe } from '@angular/common';
 import { AdminConfigService } from '../../services/admin-config.service';
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
@@ -13,7 +14,7 @@ const COMMON_ICONS = [
 
 @Component({
   selector: 'app-admin-panel',
-  imports: [FormsModule],
+  imports: [FormsModule, TitleCasePipe],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
     <div class="admin-panel" role="region" aria-label="Admin panel">
@@ -28,7 +29,7 @@ const COMMON_ICONS = [
           @for (type of adminService.config().ingredientTypes; track type.name) {
             <li class="admin-type-item">
               <span class="admin-type-icon" aria-hidden="true">{{ type.icon }}</span>
-              <span class="admin-type-name">{{ type.name }}</span>
+              <span class="admin-type-name">{{ type.name | titlecase }}</span>
             </li>
           }
         </ul>
@@ -92,11 +93,11 @@ const COMMON_ICONS = [
                 <span class="admin-ingredient-name">{{ ing.name }}</span>
                 <select
                   class="admin-ingredient-select"
-                  [value]="adminService.getIngredientCategory(ing.name, ing.defaultType)"
-                  (change)="updateCategory(ing.name, $any($event.target).value)"
+                  [ngModel]="adminService.getIngredientCategory(ing.name, ing.defaultType)"
+                  (ngModelChange)="updateCategory(ing.name, $event)"
                   [attr.aria-label]="'Category for ' + ing.name">
                   @for (type of adminService.config().ingredientTypes; track type.name) {
-                    <option [value]="type.name">{{ type.icon }} {{ type.name }}</option>
+                    <option [value]="type.name">{{ type.icon }} {{ type.name | titlecase }}</option>
                   }
                 </select>
               </li>
