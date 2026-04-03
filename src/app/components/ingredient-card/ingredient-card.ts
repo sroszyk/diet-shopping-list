@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject, input, signal } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject, input, signal } from '@angular/core';
 import { IngredientItem } from '../../models/diet.types';
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
@@ -9,7 +9,7 @@ import { ToastService } from '../../services/toast.service';
   template: `
     <div class="ingredient-card" [class.excluded]="item().excluded">
       <div class="ingredient-row">
-        <div class="ingredient-icon icon-{{ item().type }}" aria-hidden="true">
+        <div class="ingredient-icon icon-{{ effectiveType() }}" aria-hidden="true">
           {{ meta().icon }}
         </div>
         <div class="ingredient-info">
@@ -88,9 +88,13 @@ export class IngredientCardComponent {
 
   expanded = signal(false);
 
-  meta() {
-    return this.listService.getCategoryMeta(this.item().type);
-  }
+  readonly effectiveType = computed(() =>
+    this.listService.getEffectiveType(this.item().name, this.item().type)
+  );
+
+  readonly meta = computed(() =>
+    this.listService.getCategoryMeta(this.effectiveType())
+  );
 
   weightDisplay(): string {
     const i = this.item();

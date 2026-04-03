@@ -2,6 +2,7 @@ import { ChangeDetectionStrategy, Component, computed, inject, output } from '@a
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
 import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
+import { IngredientItem } from '../../models/diet.types';
 
 @Component({
   selector: 'app-summary',
@@ -44,7 +45,7 @@ import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
             @for (ing of group[1]; track ing.id) {
               <div class="summary-item">
                 <span class="summary-item-name">
-                  {{ categoryIcon(ing.type) }} {{ ing.name }}
+                  {{ categoryIcon(ing) }} {{ ing.name }}
                 </span>
                 <span class="summary-item-amount">
                   @if (ing.custom) {
@@ -96,8 +97,9 @@ export class SummaryComponent {
     return this.listService.getCategoryMeta(type).label.toUpperCase();
   }
 
-  categoryIcon(type: string): string {
-    return this.listService.getCategoryMeta(type).icon;
+  categoryIcon(ing: IngredientItem): string {
+    const effectiveType = this.listService.getEffectiveType(ing.name, ing.type);
+    return this.listService.getCategoryMeta(effectiveType).icon;
   }
 
   copyList(): void {

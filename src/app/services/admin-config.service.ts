@@ -54,15 +54,19 @@ export class AdminConfigService {
 
   getCategoryMeta(typeName: string): { label: string; icon: string; order: number } {
     const builtin = CATEGORY_META[typeName as IngredientType];
-    if (builtin) return builtin;
     const lowerName = typeName.toLowerCase();
     const types = this.config().ingredientTypes;
     const idx = types.findIndex(
       t => t.name === typeName || t.name.toLowerCase() === lowerName,
     );
     if (idx >= 0) {
-      return { label: types[idx].name, icon: types[idx].icon, order: 10 + idx };
+      return {
+        label: builtin ? builtin.label : types[idx].name,
+        icon: types[idx].icon,
+        order: builtin ? builtin.order : 10 + idx,
+      };
     }
+    if (builtin) return builtin;
     return { label: typeName, icon: '📦', order: 99 };
   }
 
