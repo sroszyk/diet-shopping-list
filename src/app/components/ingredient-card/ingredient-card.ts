@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, inject, input, signal } from '@angular/core';
-import { IngredientItem, CATEGORY_META, IngredientType } from '../../models/diet.types';
+import { IngredientItem } from '../../models/diet.types';
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
 
@@ -89,8 +89,7 @@ export class IngredientCardComponent {
   expanded = signal(false);
 
   meta() {
-    const type = this.item().type as IngredientType;
-    return CATEGORY_META[type] ?? { icon: '📦', label: type, order: 99 };
+    return this.listService.getCategoryMeta(this.item().type);
   }
 
   weightDisplay(): string {

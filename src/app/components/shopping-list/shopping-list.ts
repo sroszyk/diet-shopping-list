@@ -2,7 +2,6 @@ import { ChangeDetectionStrategy, Component, computed, inject, output, signal } 
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
 import { IngredientCardComponent } from '../ingredient-card/ingredient-card';
-import { CATEGORY_META, IngredientType } from '../../models/diet.types';
 import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
 
 @Component({
@@ -79,7 +78,7 @@ import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
                   class="custom-item-select"
                   [value]="customType()"
                   (change)="customType.set($any($event.target).value)">
-                  @for (entry of categoryEntries; track entry.type) {
+                  @for (entry of categoryEntries(); track entry.type) {
                     <option [value]="entry.type">{{ entry.icon }} {{ entry.label }}</option>
                   }
                 </select>
@@ -150,15 +149,12 @@ export class ShoppingListComponent {
   readonly showCustomForm = signal(false);
   readonly customName = signal('');
   readonly customQty = signal('');
-  readonly customType = signal<IngredientType>('vegetable');
+  readonly customType = signal<string>('vegetable');
 
-  readonly categoryEntries = (Object.entries(CATEGORY_META) as [IngredientType, { label: string; icon: string; order: number }][])
-    .sort(([, a], [, b]) => a.order - b.order)
-    .map(([type, meta]) => ({ type, label: meta.label, icon: meta.icon }));
+  readonly categoryEntries = computed(() => this.listService.allCategoryEntries());
 
   categoryLabel(type: string): string {
-    const meta = CATEGORY_META[type as keyof typeof CATEGORY_META];
-    return (meta?.label ?? type).toUpperCase();
+    return this.listService.getCategoryMeta(type).label.toUpperCase();
   }
 
   addCustomItem(): void {
