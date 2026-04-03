@@ -256,6 +256,10 @@ export class ShoppingListService {
       });
   }
 
+  getEffectiveType(name: string, defaultType: string): string {
+    return this.adminConfigService.getIngredientCategory(name, defaultType);
+  }
+
   getCategoryMeta(typeName: string): { label: string; icon: string; order: number } {
     return this.adminConfigService.getCategoryMeta(typeName);
   }
