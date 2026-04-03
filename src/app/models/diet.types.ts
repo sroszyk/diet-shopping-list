@@ -50,7 +50,7 @@ export interface IngredientUsage {
 export interface IngredientItem {
   id: string;
   name: string;
-  type: IngredientType;
+  type: string;
   totalWeight: number;
   adjustedWeight: number;
   usages: IngredientUsage[];

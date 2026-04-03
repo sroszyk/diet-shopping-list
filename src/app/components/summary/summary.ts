@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, inject, output } from '@angular/core';
 import { ShoppingListService } from '../../services/shopping-list.service';
 import { ToastService } from '../../services/toast.service';
-import { CATEGORY_META } from '../../models/diet.types';
 import { HamburgerMenuComponent } from '../hamburger-menu/hamburger-menu';
 
 @Component({
@@ -94,13 +93,11 @@ export class SummaryComponent {
   );
 
   categoryLabel(type: string): string {
-    const meta = CATEGORY_META[type as keyof typeof CATEGORY_META];
-    return (meta?.label ?? type).toUpperCase();
+    return this.listService.getCategoryMeta(type).label.toUpperCase();
   }
 
   categoryIcon(type: string): string {
-    const meta = CATEGORY_META[type as keyof typeof CATEGORY_META];
-    return meta?.icon ?? '📦';
+    return this.listService.getCategoryMeta(type).icon;
   }
 
   copyList(): void {
@@ -108,8 +105,8 @@ export class SummaryComponent {
     const groups = this.listService.groupedIngredients(this.listService.activeIngredients());
     const lines = [`Diet Shopping List — Days: ${days}`, ''];
     groups.forEach(([type, items]) => {
-      const meta = CATEGORY_META[type as keyof typeof CATEGORY_META];
-      lines.push(`--- ${(meta?.label ?? type).toUpperCase()} ---`);
+      const meta = this.listService.getCategoryMeta(type);
+      lines.push(`--- ${meta.label.toUpperCase()} ---`);
       items.forEach(ing => {
         const amount = ing.custom
           ? (ing.freeQuantity || '—')

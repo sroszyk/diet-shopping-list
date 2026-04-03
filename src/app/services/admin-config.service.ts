@@ -1,6 +1,6 @@
 import { Injectable, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { AdminConfig, IngredientTypeConfig } from '../models/diet.types';
+import { AdminConfig, IngredientTypeConfig, CATEGORY_META, IngredientType } from '../models/diet.types';
 
 const STORAGE_KEY = 'admin_config';
 
@@ -50,6 +50,20 @@ export class AdminConfigService {
 
   getIngredientCategory(ingredientName: string, defaultCategory: string): string {
     return this.config().ingredientCategories?.[ingredientName] ?? defaultCategory;
+  }
+
+  getCategoryMeta(typeName: string): { label: string; icon: string; order: number } {
+    const builtin = CATEGORY_META[typeName as IngredientType];
+    if (builtin) return builtin;
+    const lowerName = typeName.toLowerCase();
+    const types = this.config().ingredientTypes;
+    const idx = types.findIndex(
+      t => t.name === typeName || t.name.toLowerCase() === lowerName,
+    );
+    if (idx >= 0) {
+      return { label: types[idx].name, icon: types[idx].icon, order: 10 + idx };
+    }
+    return { label: typeName, icon: '📦', order: 99 };
   }
 
   saveConfig(): void {

@@ -1,5 +1,6 @@
-import { Injectable, signal, computed } from '@angular/core';
+import { Injectable, signal, computed, inject } from '@angular/core';
 import { DietData, IngredientItem, IngredientType, CATEGORY_META } from '../models/diet.types';
+import { AdminConfigService } from './admin-config.service';
 
 export type AppScreen = 'days' | 'list' | 'summary';
 
@@ -26,6 +27,7 @@ function normalizeMiara(miara: string): { quantity: number; unit: string } | nul
 
 @Injectable({ providedIn: 'root' })
 export class ShoppingListService {
+  private adminConfigService = inject(AdminConfigService);
   private _dietData = signal<DietData | null>(null);
   private _selectedDays = signal<Set<number>>(new Set());
   private _ingredients = signal<IngredientItem[]>([]);
@@ -197,7 +199,7 @@ export class ShoppingListService {
     this._ingredients.update(items => items.filter(i => i.id !== id));
   }
 
-  addCustomItem(name: string, type: IngredientType, freeQuantity: string): void {
+  addCustomItem(name: string, type: string, freeQuantity: string): void {
     const trimmedName = name.trim();
     if (!trimmedName) return;
     const id = `custom|${trimmedName.toLowerCase()}|${type}|${Date.now()}`;
@@ -239,20 +241,34 @@ export class ShoppingListService {
     this._screen.set('days');
   }
 
-  groupedIngredients(items: IngredientItem[]): [IngredientType, IngredientItem[]][] {
-    const map: Partial<Record<IngredientType, IngredientItem[]>> = {};
+  groupedIngredients(items: IngredientItem[]): [string, IngredientItem[]][] {
+    const map: Record<string, IngredientItem[]> = {};
     items.forEach(ing => {
-      const t = (ing.type || 'vegetable') as IngredientType;
-      if (!map[t]) map[t] = [];
-      map[t]!.push(ing);
+      const effectiveType = this.adminConfigService.getIngredientCategory(ing.name, ing.type);
+      if (!map[effectiveType]) map[effectiveType] = [];
+      map[effectiveType].push(ing);
     });
-    return (Object.entries(map) as [IngredientType, IngredientItem[]][])
+    return Object.entries(map)
       .sort(([a], [b]) => {
-        const oa = CATEGORY_META[a]?.order ?? 99;
-        const ob = CATEGORY_META[b]?.order ?? 99;
+        const oa = this.adminConfigService.getCategoryMeta(a).order;
+        const ob = this.adminConfigService.getCategoryMeta(b).order;
         return oa - ob;
       });
   }
+
+  getCategoryMeta(typeName: string): { label: string; icon: string; order: number } {
+    return this.adminConfigService.getCategoryMeta(typeName);
+  }
+
+  readonly allCategoryEntries = computed(() => {
+    const builtins = (Object.entries(CATEGORY_META) as [IngredientType, { label: string; icon: string; order: number }][])
+      .map(([type, meta]) => ({ type, label: meta.label, icon: meta.icon, order: meta.order }));
+    const builtinKeys = new Set(Object.keys(CATEGORY_META));
+    const adminCustom = this.adminConfigService.config().ingredientTypes
+      .filter(t => !builtinKeys.has(t.name.toLowerCase()))
+      .map((t, i) => ({ type: t.name, label: t.name, icon: t.icon, order: 10 + i }));
+    return [...builtins, ...adminCustom].sort((a, b) => a.order - b.order);
+  });
 
   formatDate(dateStr: string): string {
     try {
