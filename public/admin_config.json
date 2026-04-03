@@ -1,9 +1,103 @@
 {
   "ingredientTypes": [
-    { "name": "fruit", "icon": "🍎" },
-    { "name": "vegetable", "icon": "🥦" },
-    { "name": "dairy", "icon": "🧀" },
-    { "name": "meat", "icon": "🥩" },
-    { "name": "bread", "icon": "🍞" }
-  ]
+    {
+      "name": "fruit",
+      "icon": "🍎"
+    },
+    {
+      "name": "vegetable",
+      "icon": "🥦"
+    },
+    {
+      "name": "dairy",
+      "icon": "🧀"
+    },
+    {
+      "name": "meat",
+      "icon": "🥩"
+    },
+    {
+      "name": "bread",
+      "icon": "🍞"
+    },
+    {
+      "name": "Spice",
+      "icon": "🧂"
+    },
+    {
+      "name": "Frozen",
+      "icon": "🥑"
+    },
+    {
+      "name": "Other",
+      "icon": "🫙"
+    },
+    {
+      "name": "Sweet",
+      "icon": "🍯"
+    },
+    {
+      "name": "Pasta",
+      "icon": "🧈"
+    },
+    {
+      "name": "Nuts",
+      "icon": "🥜"
+    }
+  ],
+  "ingredientCategories": {
+    "Aromat waniliowy": "Spice",
+    "Borówki amerykańskie": "Frozen",
+    "Borówka cała": "Frozen",
+    "Cynamon mielony": "Spice",
+    "Czarnuszka": "Spice",
+    "Czekolada gorzka 70-85% kakao": "Sweet",
+    "Czosnek w proszku": "Spice",
+    "Ekstrakt waniliowy": "Spice",
+    "Galaretka w proszku": "Spice",
+    "Gnocchi": "Pasta",
+    "Groszek zielony mrożony": "Frozen",
+    "Kakao w proszku": "Spice",
+    "Kasza gryczana niepalona": "Pasta",
+    "Kasza gryczana palona": "Pasta",
+    "Ketchup łagodny bez cukru Premium (Roleski)": "Spice",
+    "Ksylitol": "Spice",
+    "Kumin w proszku (kmin rzymski)": "Spice",
+    "Liść laurowy": "Spice",
+    "Łosoś wędzony": "dairy",
+    "Majonez": "Spice",
+    "Makaron z czerwonej soczewicy": "Pasta",
+    "Makaron z czerwonej soczewicy (Go Vege)": "Pasta",
+    "Maliny mrożone": "Frozen",
+    "Masło orzechowe": "Sweet",
+    "Mięta": "Spice",
+    "Migdały": "Nuts",
+    "Migdały płatki": "Nuts",
+    "Miód": "Sweet",
+    "Musli Codzienne (One Day More)": "Nuts",
+    "Musztarda": "Spice",
+    "Nasiona chia": "Nuts",
+    "Nasiona słonecznika": "Nuts",
+    "Ocet balsamiczny": "Spice",
+    "Ogórek kiszony": "Spice",
+    "Oliwa z oliwek": "Spice",
+    "Oliwki czarne marynowane": "Spice",
+    "Oregano suszone": "Spice",
+    "Orzechy nerkowca": "Nuts",
+    "Orzechy włoskie": "Nuts",
+    "Pestki dyni": "Nuts",
+    "Pesto bazyliowe": "Spice",
+    "Pieprz biały": "Spice",
+    "Pieprz czarny": "Spice",
+    "Pietruszka korzeń": "Spice",
+    "Płatki owsiane": "Nuts",
+    "Przyprawa do kurczaka": "Spice",
+    "Słodka papryka przyprawa": "Spice",
+    "Sok z cytryny": "Spice",
+    "Sól": "Spice",
+    "Truskawki mrożone": "Frozen",
+    "Wiórki kokosowe": "Nuts",
+    "Woda z ogórków kiszonych": "Other",
+    "Ziele angielskie": "Spice"
+  }
 }
